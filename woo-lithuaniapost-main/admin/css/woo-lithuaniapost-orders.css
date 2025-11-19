@@ -1,0 +1,37 @@
+.unisend-orders .tablenav.top .tablenav-pages {
+    display: none;
+}
+
+@media screen and (min-width: 783px) {
+    .unisend-orders .column-order_id {
+        width: 74px;
+    }
+
+    .unisend-orders .column-customer {
+        width: 100px;
+    }
+
+    .unisend-orders .column-barcode {
+        width: 100px;
+    }
+}
+
+@media (min-width: 783px) and (max-width: 1439px) {
+    .unisend-orders .column-shippingMethod {
+        display: none;
+    }
+
+    .unisend-orders .column-service {
+        display: none;
+    }
+}
+
+@media (min-width: 783px) and (max-width: 1330px) {
+    .unisend-orders .column-orderDetails {
+        display: none;
+    }
+
+    .unisend-orders .column-barcode {
+        display: none;
+    }
+}

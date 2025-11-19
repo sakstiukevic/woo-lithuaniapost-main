@@ -1,0 +1,54 @@
+.size-rate .tablenav {
+    display: none;
+}
+.weight-rate table th {
+    padding: 7px 0 7px 7px!important;
+}
+.weight-rate input.error {
+    border: 1px solid red;
+}
+
+.order-status.status-lp-parcel-failed {
+    background: #f7e1e1;
+    color: #382424;
+}
+
+.order-status.status-lp-parcel-created {
+    background: #ECE8C0;
+    color: #5e5c47;
+}
+
+.order-status.status-lp-label-created {
+    background: #BAE7D4;
+    color: #356606;
+}
+
+.order-status.status-lp-courier-await {
+    background: #ECE8C0;
+    color: #5e5c47;
+}
+
+.order-status.status-lp-courier-called {
+    background: #BAE7D4;
+    color: #356606;
+}
+
+.order-status.status-lp-on-the-way {
+    background: #BAE7D4;
+    color: #356606;
+}
+
+.order-status.status-lp-delivered {
+    background: #BAE7D4;
+    color: #356606;
+}
+
+.order-status.status-lp-cancelled {
+    background: #e1e1e3;
+    color: #2e4453;
+}
+
+.order-status.status-lp-parcel-await {
+    background: #f8dda7;
+    color: #94660c;
+}

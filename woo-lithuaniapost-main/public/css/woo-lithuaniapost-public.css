@@ -1,0 +1,16 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+#woo_lithuaniapost_lpexpress_terminal_id {
+    margin-top: 5px;
+}
+
+#woo_lithuaniapost_lpexpress_terminal_city, #woo_lithuaniapost_lpexpress_terminal_id {
+    width: 100%;
+}
+@media screen and (max-width: 450px) {
+    .woo_lithuaniapost_lpexpress_terminal_select_container {
+        max-width: 300px;
+    }
+}

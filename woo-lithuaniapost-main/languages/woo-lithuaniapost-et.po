@@ -1,0 +1,1081 @@
+# Copyright (C) 2021 AB "UNISEND"
+# This file is distributed under the same license as the UNISEND for WooCommerce plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: UNISEND for WooCommerce 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woo-"
+"lithuaniapost\n"
+"Last-Translator: \n"
+"Language-Team: Eesti\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-04-13T11:54:27+03:00\n"
+"PO-Revision-Date: 2022-09-09 12:52+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: woo-lithuaniapost\n"
+"Language: et\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 "
+"&&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"X-Loco-Version: 2.5.2; wp-5.8"
+
+#. Author of the plugin
+msgid "UNISEND"
+msgstr ""
+
+msgid "Accepted"
+msgstr ""
+
+msgid "Amount"
+msgstr ""
+
+msgid "Apartment"
+msgstr ""
+
+msgid "Apartment Number"
+msgstr ""
+
+msgid "Apply minimal amount rule before coupon discount"
+msgstr ""
+
+msgid "Attempt to deliver failed"
+msgstr ""
+
+msgid "Authorization"
+msgstr ""
+
+msgid "BP terminal request submitted"
+msgstr ""
+
+msgid "Building Number"
+msgstr ""
+
+msgid "Call Courier"
+msgstr ""
+
+msgid "Call courier action complete."
+msgstr ""
+
+msgid "Call courier automatically"
+msgstr ""
+
+msgid "Cancel labels action complete."
+msgstr ""
+
+msgid "UNISEND Cancel Shipping Label"
+msgstr ""
+
+msgid "Canceled"
+msgstr ""
+
+msgid "Certificate"
+msgstr ""
+
+msgid "City"
+msgstr ""
+
+msgid "CN22 Declaration"
+msgstr ""
+
+msgid "CN23 Declaration"
+msgstr ""
+
+msgid "Consignment accepted from sender"
+msgstr ""
+
+msgid "Consignment at distribution center"
+msgstr ""
+
+msgid "Consignment at the customs office of destination"
+msgstr ""
+
+msgid "Consignment at the distribution center in the country of destination"
+msgstr ""
+
+msgid "Consignment Formation"
+msgstr ""
+
+msgid "Consignment in the country of destination"
+msgstr ""
+
+msgid "Consignment shipped from Lithuania"
+msgstr ""
+
+msgid "Corespondence"
+msgstr ""
+
+msgid "Corespondence Tracked"
+msgstr ""
+
+msgid "Could not complete action for orders %s."
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+msgid "Country"
+msgstr ""
+
+msgid "Country of Origin"
+msgstr ""
+
+msgid "Coupon discount"
+msgstr ""
+
+#. translators: %s: number of orders
+msgid "Courier Called <span class=\"count\">(%s)</span>"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+msgid "Create labels action complete."
+msgstr ""
+
+msgid "Create Shipping Label"
+msgstr ""
+
+msgid "Currency"
+msgstr ""
+
+msgid "Date"
+msgstr ""
+
+msgid "Delivered"
+msgstr ""
+
+msgid "Delivery failed"
+msgstr ""
+
+msgid "Delivery tag canceled"
+msgstr ""
+
+msgid "Delivery tag created"
+msgstr ""
+
+msgid "Delivery time"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "Destroyed"
+msgstr ""
+
+msgid "Detained"
+msgstr ""
+
+msgid "Disable UNISEND terminal shipping for this product"
+msgstr ""
+
+msgid "Document"
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+  
+msgid "Example: 1 - 4 d.d."
+msgstr ""
+
+msgid "Export"
+msgstr ""
+
+msgid "Export Price vs Country"
+msgstr ""
+
+msgid "Export Price vs Weight"
+msgstr ""
+
+msgid "Exported"
+msgstr ""
+
+msgid "Exporter Customs Code"
+msgstr ""
+
+msgid "Failure Instruction"
+msgstr ""
+
+msgid "Format: 370XXXXXXXX"
+msgstr ""
+
+msgid "Forwarded"
+msgstr ""
+
+msgid "Forwarded in post office"
+msgstr ""
+
+msgid "Forwarded-Served"
+msgstr ""
+
+msgid "Forwarding started"
+msgstr ""
+
+msgid "Gift"
+msgstr ""
+
+msgid "Sell"
+msgstr ""
+
+msgid "Sell Items"
+msgstr ""
+
+msgid "CN Declaration"
+msgstr ""
+
+msgid "Select"
+msgstr ""
+
+msgid "HS Item Number"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://post.lt"
+msgstr ""
+
+msgid "Import Price vs Country"
+msgstr ""
+
+msgid "Import Price vs Weight"
+msgstr ""
+
+msgid "Importer Code"
+msgstr ""
+
+msgid "Importer Customs Code"
+msgstr ""
+
+msgid "Importer Email"
+msgstr ""
+
+msgid "Importer Fax"
+msgstr ""
+
+msgid "Importer Phone"
+msgstr ""
+
+msgid "Importer Tax Code"
+msgstr ""
+
+msgid "Importer Vat Code"
+msgstr ""
+
+msgid "Included"
+msgstr ""
+
+msgid "Information not yet updated"
+msgstr ""
+
+msgid "Invoice"
+msgstr ""
+
+msgid "It's gone"
+msgstr ""
+
+msgid "Item accepted at distribution center"
+msgstr ""
+
+msgid "Item shipped from Lithuania"
+msgstr ""
+
+msgid "Label Format"
+msgstr ""
+
+msgid "Label Orientation"
+msgstr ""
+
+msgid "Leave empty if you wan't to use country rates."
+msgstr ""
+  
+msgid "Leave empty if you wan't to use table rates."
+msgstr ""
+
+msgid "License"
+msgstr ""
+
+msgid "UNISEND"
+msgstr ""
+
+  msgid "UNISEND - Delivery to home, office or post office"
+msgstr ""
+
+  msgid "UNISEND - Delivery to overseas"
+msgstr ""
+
+msgid "UNISEND - Delivery to overseas shipping method."
+msgstr ""
+
+msgid "UNISEND - Post office delivery method."
+msgstr ""
+
+#. Plugin Name of the plugin
+msgid "UNISEND for WooCommerce"
+msgstr ""
+
+msgid "UNISEND plugin requires PHP version 7+"
+msgstr ""
+
+#. Description of the plugin
+msgid "UNISEND shipping for WooCommerce."
+msgstr ""
+
+msgid "UNISEND Shipping Settings"
+msgstr ""
+
+msgid "UNISEND Tracking"
+msgstr ""
+
+msgid "Call Courier"
+msgstr ""
+
+msgid "UNISEND Create Shipping Parcel"
+msgstr ""
+
+msgid "UNISEND Cancel Shipping Labels"
+msgstr ""
+
+msgid "UNISEND Call courier and generate manifest"
+msgstr ""
+
+msgid "Call courier and generate manifest"
+msgstr ""
+
+msgid "Create Shipping Labels"
+msgstr ""
+
+msgid "Initiate Shipping"
+msgstr ""
+
+msgid "UNISEND - Courier shipping method."
+msgstr ""
+
+msgid "UNISEND - Delivery post office"
+msgstr ""
+
+  
+msgid "UNISEND - Delivery to home, office by courier"
+msgstr ""
+  
+msgid "UNISEND - Delivery to overseas"
+msgstr ""
+
+msgid "UNISEND - Delivery to overseas shipping method."
+msgstr ""
+
+msgid "UNISEND - Delivery to post office"
+msgstr ""
+  
+msgid "UNISEND - Delivery to parcel locker"
+msgstr ""
+
+msgid "UNISEND - Post office shipping method."
+msgstr ""
+
+msgid "UNISEND - Terminal shipping method."
+msgstr ""
+
+msgid "UNISEND Courier"
+msgstr ""
+
+msgid "UNISEND Parcel Locker"
+msgstr ""
+
+msgid "UNISEND terminal request accepted"
+msgstr ""
+
+msgid "UNISEND terminal request failed"
+msgstr ""
+
+msgid "UNISEND terminal request rejected"
+msgstr ""
+
+msgid "Print All Documents"
+msgstr ""
+
+msgid "Print CN23 Forms"
+msgstr ""
+
+msgid "UNISEND Print Shipping Labels"
+msgstr ""
+
+msgid "Maximum length: 100 characters"
+msgstr ""
+
+msgid "Maximum length: 128 characters"
+msgstr ""
+
+msgid "Maximum length: 20 characters"
+msgstr ""
+
+msgid "Maximum length: 50 characters"
+msgstr ""
+
+msgid "Minimal order amount for free shipping"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Company name"
+msgstr ""
+
+msgid "Not delivered"
+msgstr ""
+
+msgid "Not included"
+msgstr ""
+
+msgid "Notes"
+msgstr ""
+
+msgid "Order date:"
+msgstr ""
+
+msgid "Order nr."
+msgstr ""
+
+msgctxt "Order status"
+msgid "Courier Called"
+msgstr ""
+
+msgctxt "Order status"
+msgid "Shipment Created"
+msgstr ""
+
+msgctxt "Order status"
+msgid "Courier Pending"
+msgstr ""
+
+msgctxt "Order status"
+msgid "Parcel Created"
+msgstr ""
+
+msgctxt "Order status"
+msgid "Parcel Create Failed"
+msgstr ""
+
+msgctxt "Order status"
+msgid "Courier Called"
+msgstr ""
+
+msgctxt "Order status"
+msgid "On the way"
+msgstr ""
+
+msgctxt "Order status"
+msgid "Delivered"
+msgstr ""
+
+msgctxt "Order status"
+msgid "Cancelled"
+msgstr ""
+
+msgctxt "Order status"
+msgid "On-hold"
+msgstr ""
+
+msgid "Other"
+msgstr ""
+
+msgid "Other Settings"
+msgstr ""
+
+msgid "Validate shipping address"
+msgstr ""
+
+msgid "Package"
+msgstr ""
+
+msgid "Parcel accepted from sender"
+msgstr ""
+
+msgid "Parcel at the recipient's post office"
+msgstr ""
+
+msgid "Parcel Description"
+msgstr ""
+
+msgid "Parcel Information"
+msgstr ""
+
+msgid "Parcel Items"
+msgstr ""
+
+msgid "Parcel Type"
+msgstr ""
+
+msgid "Parcel Type Notes"
+msgstr ""
+
+msgid "Parts:"
+msgstr ""
+
+msgid "Passed on for deliver"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid "Password from manosiuntos.post.lt"
+msgstr ""
+
+msgid "Phone"
+msgstr ""
+
+msgid "Please select parcel locker"
+msgstr ""
+
+msgid "Select parcel locker"
+msgstr "Vali pakiautomaat"
+
+msgid "Please select parcel locker locality.."
+msgstr ""
+
+msgid "Please select parcel locker.."
+msgstr ""
+
+msgid "COD payment is not available for selected shipping"
+msgstr ""
+
+msgid "Post Code"
+msgstr ""
+
+msgid "Price"
+msgstr ""
+
+msgid "Print All Documents"
+msgstr ""
+
+msgid "Print CN23 Form"
+msgstr ""
+
+msgid "UNISEND Print Manifest"
+msgstr ""
+
+msgid "UNISEND Print Shipping Label"
+msgstr ""
+
+msgid "Quantity"
+msgstr ""
+
+msgid "Receipt message"
+msgstr ""
+
+msgid "Received"
+msgstr ""
+
+msgid "Refunded"
+msgstr ""
+
+msgid "Return"
+msgstr ""
+
+msgid "Return started"
+msgstr ""
+
+msgid "Returned to post office"
+msgstr ""
+
+msgid "Sample"
+msgstr ""
+
+msgid "Save Changes"
+msgstr ""
+
+msgid "Secure on demand"
+msgstr ""
+
+msgid "Sender city is invalid. Please enter a valid city and try again."
+msgstr ""
+
+msgid "Sender Information"
+msgstr ""
+
+msgid "Sender information"
+msgstr ""
+
+msgid "Pickup information"
+msgstr ""
+
+msgid "Pickup address"
+msgstr ""
+
+msgid "Sent"
+msgstr ""
+
+msgid "Served (BKIS)"
+msgstr ""
+
+msgid "Served at the post office"
+msgstr ""
+
+msgid "Ship From:"
+msgstr ""
+
+msgid "Ship To:"
+msgstr ""
+
+#. translators: %s: number of orders
+#, fuzzy
+#| msgid "Shipment Created <span class=\"count\">(%s)</span>"
+#| msgid_plural ""
+msgid "Shipment Created <span class=\"count\">(%s)</span>"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+msgid "Courier Pending <span class=\"count\">(%s)</span>"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+msgid "Parcel Created <span class=\"count\">(%s)</span>"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+msgid "Parcel Create Failed <span class=\"count\">(%s)</span>"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+msgid "Courier Called <span class=\"count\">(%s)</span>"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+msgid "On the way <span class=\"count\">(%s)</span>"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+msgid "Delivered <span class=\"count\">(%s)</span>"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+msgid "Cancelled <span class=\"count\">(%s)</span>"
+msgid_plural ""
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+msgid "Shipment returned"
+msgstr ""
+
+msgid "Shipping method"
+msgstr ""
+
+msgid "Shipping plan"
+msgstr ""
+
+msgid "Parcel type"
+msgstr ""
+
+msgid "Shipping rates type"
+msgstr ""
+
+msgid "Shipping rates"
+msgstr ""
+
+msgid "Shipping weight"
+msgstr ""
+
+msgid "Flat Rate Shipping"
+msgstr ""
+
+msgid "Weight Based Shipping"
+msgstr ""
+
+msgid "Size Based Shipping"
+msgstr ""
+
+msgid "Add Weight"
+msgstr ""
+
+msgid "Storage in a parcel locker"
+msgstr ""
+
+msgid "Storage in a parcel locker"
+msgstr ""
+
+msgid "Courier -> Parcel locker"
+msgstr ""
+
+msgid "Parcel locker -> Parcel locker"
+msgstr ""
+
+msgid "Post office -> Recipient address"
+msgstr ""
+
+msgid "Parcel locker -> Recipient address"
+msgstr ""
+
+msgid "Courier -> Recipient address"
+msgstr ""
+
+msgid "Courier -> Post office"
+msgstr ""
+
+msgid "Processes documents"
+msgstr ""
+
+msgid "Untracked"
+msgstr ""
+
+msgid "Locker"
+msgstr ""
+
+msgid "Courier"
+msgstr ""
+
+msgid "Tracked signed"
+msgstr ""
+
+msgid "Signed"
+msgstr ""
+
+msgid "Tracked"
+msgstr ""
+
+msgid "Parcel create pending"
+msgstr ""
+
+msgid "Plan"
+msgstr ""
+
+msgid "Parcel Size"
+msgstr ""
+
+msgid "Parcel Weight (g)"
+msgstr ""
+
+msgid "Parcel part count"
+msgstr ""
+
+msgid "Save Changes"
+msgstr ""
+
+msgid "Regenerate"
+msgstr ""
+
+msgid "Parcel create failed"
+msgstr ""
+
+msgid "Edit CN"
+msgstr ""
+
+msgid "Shipping size"
+msgstr ""
+
+msgid "Shipping type"
+msgstr ""
+
+msgid "Monday"
+msgstr ""
+
+msgid "Tuesday"
+msgstr ""
+
+msgid "Wednesday"
+msgstr ""
+
+msgid "Thursday"
+msgstr ""
+
+msgid "Friday"
+msgstr ""
+
+msgid "Sunday"
+msgstr ""
+
+msgid "Saturday"
+msgstr ""
+
+msgid "Something wen't wrong please try again later."
+msgstr ""
+
+msgid "Status:"
+msgstr ""
+
+msgid "Street"
+msgstr ""
+
+msgid "Summary"
+msgstr ""
+
+msgid "Parcel Locker"
+msgstr ""
+
+msgid "Parcel Locker:"
+msgstr ""
+
+msgid "Test Mode"
+msgstr ""
+
+msgid "The consignment has been checked at the customs office of dispatch"
+msgstr ""
+
+msgid ""
+"The consignment has been presented to the customs authorities of the country "
+"of departure"
+msgstr ""
+
+msgid ""
+"The consignment is subject to customs controls in the country of destination"
+msgstr ""
+
+msgid "The consignment was detained at the office of departure"
+msgstr ""
+
+msgid "The following options are used to configure UNISEND shipping"
+msgstr ""
+
+msgid "The Item Being Sent"
+msgstr ""
+
+msgid ""
+"The item has been presented to the customs authorities of the country of "
+"destination"
+msgstr ""
+
+msgid "The item shall be transported to another distribution center"
+msgstr ""
+
+msgid "The itemt was delivered for destruction"
+msgstr ""
+
+msgid "The parcel has been handed over to the courier for delivery"
+msgstr ""
+
+msgid "The parcel is being returned"
+msgstr ""
+
+msgid "The parcel is taken by courier from the parcel self-service terminal"
+msgstr ""
+
+msgid "The parcel was delivered to the UNISEND Office"
+msgstr ""
+
+msgid "The parcel was received at the UNISEND Office"
+msgstr ""
+
+msgid "The parcel was taken from the UNISEND Office"
+msgstr ""
+
+msgid "The shipment has been canceled from the sender's country"
+msgstr ""
+
+msgid "The shipment has been delivered for delivery"
+msgstr ""
+
+msgid "The shipment has been delivered to the consignee"
+msgstr ""
+
+msgid "The shipment has been delivered to the receiver"
+msgstr ""
+
+msgid "The shipment has been withdrawn by the receiver"
+msgstr ""
+
+msgid "The shipment is gone"
+msgstr ""
+
+msgid "The shipment is on hold in the recipient's post office"
+msgstr ""
+
+msgid "The shipment is placed in the parcel self-service terminal for shipment"
+msgstr ""
+
+msgid "The shipment was delivered to the parcel self-service terminal"
+msgstr ""
+
+msgid "The shipment was delivered to the place of collection"
+msgstr ""
+
+msgid ""
+"The shipment was detained at the distribution center of the recipient country"
+msgstr ""
+
+msgid ""
+"The shipment was sent from a distribution center in the recipient country"
+msgstr ""
+
+msgid "The shipment was sent to the recipient's post office"
+msgstr ""
+
+msgid "Thei tem is detained at the dispatch center of the country of dispatch"
+msgstr ""
+
+msgid "to"
+msgstr ""
+
+msgid "TRACK PARCEL"
+msgstr ""
+
+msgid "Tracking Information"
+msgstr ""
+
+msgid "Tracking nr."
+msgstr ""
+
+msgid "Tracking Number:"
+msgstr ""
+
+msgid "Transferred to storage"
+msgstr ""
+
+msgid "Transferred to the State"
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
+
+msgid "UNISEND Tracking"
+msgstr ""
+
+msgid "Username"
+msgstr ""
+
+msgid "Username from manosiuntos.post.lt"
+msgstr ""
+
+msgid "Weight"
+msgstr ""
+
+msgid "Weight To"
+msgstr ""
+
+msgid "Your order has been sent"
+msgstr ""
+
+msgid "Your order is on the way!"
+msgstr ""
+
+msgid "Use Price vs Country and Weight table"
+msgstr ""
+
+msgid "Action is not available"
+msgstr ""
+
+msgid "Failed to initiate shipping"
+msgstr ""
+
+msgid "UNISEND Error"
+msgstr ""
+
+msgid "Generate and print Labels"
+msgstr ""
+
+msgid "Barcode"
+msgstr ""
+
+msgid "All shipping methods"
+msgstr ""
+
+msgid "Service"
+msgstr ""
+
+msgid "Services"
+msgstr ""
+
+msgid "Date"
+msgstr ""
+
+msgid "Address"
+msgstr ""
+
+msgid "Size"
+msgstr ""
+
+msgid "Weight"
+msgstr ""
+
+msgid "UNISEND settings"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Filter by status"
+msgstr ""
+
+msgid "All orders"
+msgstr ""
+
+msgid "New orders"
+msgstr ""
+
+msgid "Completed orders"
+msgstr ""
+
+msgid "Please fill correct shipping data: address1 size must be between 0 and 50"
+msgstr ""
+
+msgid "Please fill correct shipping data: address2 size must be between 0 and 50"
+msgstr ""
+
+msgid "Courier Pending"
+msgstr ""
+
+msgid "Parcel Created"
+msgstr ""
+
+msgid "Parcel Create Failed"
+msgstr ""
+
+msgid "Shipment Created"
+msgstr ""
+
+msgid "Courier Called"
+msgstr ""
+
+msgid "On the way"
+msgstr ""
+
+msgid "Delivered"
+msgstr ""
+
+msgid "Cancelled"
+msgstr ""
+
+msgid "On-hold"
+msgstr ""
+
+msgid "Dimension settings"
+msgstr ""
+
+msgid "Height (cm)"
+msgstr ""
+
+msgid "Width (cm)"
+msgstr ""
+
+msgid "Length (cm)"
+msgstr ""
+
+msgid "Default product height"
+msgstr ""
+
+msgid "Default product width"
+msgstr ""
+
+msgid "Default product length"
+msgstr ""
+
+msgid "Disable UNISEND shipping for this product"
+msgstr ""
+
+msgid "UNISEND parcel locker"
+msgstr ""
+
+msgid "Disable UNISEND shipping to parcel locker for this product"
+msgstr ""

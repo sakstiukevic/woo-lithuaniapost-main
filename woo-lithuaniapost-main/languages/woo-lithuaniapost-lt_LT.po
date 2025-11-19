@@ -1,0 +1,1408 @@
+# Copyright (C) 2021 AB "UNISEND"
+# This file is distributed under the same license as the UNISEND for WooCommerce plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: UNISEND for WooCommerce 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woo-"
+"lithuaniapost\n"
+"Last-Translator: \n"
+"Language-Team: Lietuvių kalba\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-04-13T11:54:27+03:00\n"
+"PO-Revision-Date: 2022-09-09 12:52+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: woo-lithuaniapost\n"
+"Language: lt-LT\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 "
+"&&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"X-Loco-Version: 2.5.2; wp-5.8"
+
+#. Author of the plugin
+msgid "UNISEND"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:76
+msgid "Accepted"
+msgstr "Priimta"
+
+#: admin/partials/includes/html-shipment-editor.php:420 
+#: admin/partials/includes/html-shipment-editor.php:702
+msgid "Amount"
+msgstr "Kaina"
+
+#: admin/partials/includes/html-shipment-editor.php:344
+msgid "Apartment"
+msgstr "Buto numeris"
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:196
+msgid "Apartment Number"
+msgstr "Buto numeris"
+
+msgid "Apply minimal amount rule before coupon discount"
+msgstr "Taikyti minimalios sumos taisyklę prieš paskaičiuojant kupono nuolaidą"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:112
+msgid "Attempt to deliver failed"
+msgstr "Bandymas pristatyti nepavyko"
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:93
+msgid "Authorization"
+msgstr "Autorizacija"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:80
+msgid "BP terminal request submitted"
+msgstr "BP terminalo užklausa pateikta"
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:188 
+#: admin/partials/includes/html-shipment-editor.php:333
+msgid "Building Number"
+msgstr "Namo numeris"
+
+#: admin/class-woo-lithuaniapost-admin-order-actions.php:125
+msgid "Call Courier"
+msgstr "Kviesti kurjerį"
+
+#: admin/class-woo-lithuaniapost-admin-order-bulk-actions.php:442
+msgid "Call courier action complete."
+msgstr "Kurjerio kvietimo operacija įvykdyta."
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:224
+msgid "Call courier automatically"
+msgstr "Kviesti kurjerį automatiškai"
+
+#: admin/class-woo-lithuaniapost-admin-order-bulk-actions.php:458
+msgid "Cancel labels action complete."
+msgstr "Lipdukų atšaukimo operacija įvykdyta."
+
+#: admin/class-woo-lithuaniapost-admin-order-actions.php:117
+msgid "UNISEND Cancel Shipping Label"
+msgstr "UNISEND Atšaukti lipduką"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:81
+msgid "Canceled"
+msgstr "Atšaukti"
+
+#: admin/partials/includes/html-shipment-editor.php:563
+msgid "Certificate"
+msgstr "Sertifikatas"
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:172 
+#: admin/partials/includes/html-shipment-editor.php:311
+msgid "City"
+msgstr "Miestas"
+
+#: admin/partials/includes/html-shipment-editor.php:40 
+#: admin/partials/includes/html-shipment-editor.php:368
+msgid "CN22 Declaration"
+msgstr "CN22 Deklaracija"
+
+#: admin/partials/includes/html-shipment-editor.php:46 
+#: admin/partials/includes/html-shipment-editor.php:515
+msgid "CN23 Declaration"
+msgstr "CN23 Deklaracija"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:105
+msgid "Consignment accepted from sender"
+msgstr "Siunta paimta iš siuntėjo"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:106
+msgid "Consignment at distribution center"
+msgstr "Siunta paskirstymo centre"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:109
+msgid "Consignment at the customs office of destination"
+msgstr "Siunta paskirties muitinės įstaigoje"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:100
+msgid "Consignment at the distribution center in the country of destination"
+msgstr "Siunta paskirties šalies paskirstymo centre"
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:229
+msgid "Consignment Formation"
+msgstr "Siuntos formavimas"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:108
+msgid "Consignment in the country of destination"
+msgstr "Siunta paskirties šalyje"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:107
+msgid "Consignment shipped from Lithuania"
+msgstr "Siunta išsiųsta iš Lietuvos"
+
+msgid "Corespondence"
+msgstr "Siunta"
+
+msgid "Corespondence Tracked"
+msgstr "Siunta su sekimu"
+
+#: admin/class-woo-lithuaniapost-admin-order-bulk-actions.php:432
+msgid "Could not complete action for orders %s."
+msgid_plural "Could not complete action for orders %s."
+msgstr[0] "Operacija nebuvo įvykdyta užsakymams %s."
+msgstr[1] "Operacija nebuvo įvykdyta užsakymams %s."
+msgstr[2] ""
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:164 
+#: admin/class-woo-lithuaniapost-admin.php:241 
+#: admin/partials/includes/html-shipment-editor.php:297
+msgid "Country"
+msgstr "Šalis"
+
+#: admin/partials/includes/html-shipment-editor.php:425 
+#: admin/partials/includes/html-shipment-editor.php:707
+msgid "Country of Origin"
+msgstr "Kilmės šalis"
+
+msgid "Coupon discount"
+msgstr "Kuponų nuolaidos"
+
+#. translators: %s: number of orders
+#: admin/class-woo-lithuaniapost-admin.php:127
+msgid "Courier Called <span class=\"count\">(%s)</span>"
+msgid_plural "Courier Called <span class=\"count\">(%s)</span>"
+msgstr[0] "Kurjeris iškviestas <span class=\"count\">(%s)</span>"
+msgstr[1] "Kurjeris iškviestas <span class=\"count\">(%s)</span>"
+msgstr[2] ""
+
+#: admin/class-woo-lithuaniapost-admin-order-bulk-actions.php:450
+msgid "Create labels action complete."
+msgstr "Lipdukų generavimo operacija įvykdyta."
+
+#: admin/class-woo-lithuaniapost-admin-order-actions.php:113
+msgid "Create Shipping Label"
+msgstr "Generuoti lipduką"
+
+#: admin/partials/includes/html-shipment-editor.php:430 
+#: admin/partials/includes/html-shipment-editor.php:712
+msgid "Currency"
+msgstr "Valiuta"
+
+#: admin/partials/includes/html-tracking-info.php:44
+msgid "Date"
+msgstr "Data"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:92
+msgid "Delivered"
+msgstr "Pristatyta"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:86 
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:128
+msgid "Delivery failed"
+msgstr "Pristatyti nepavyko"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:126
+msgid "Delivery tag canceled"
+msgstr "Siuntos žyma atšaukta"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:127
+msgid "Delivery tag created"
+msgstr "Sukurta siuntos žyma"
+
+#: includes/shipping/lp-overseas/includes/settings-lp-overseas.php:34 
+#: includes/shipping/lp-postoffice/includes/settings-lp-postoffice.php:32 
+#: includes/shipping/lpexpress-courier/includes/settings-lpexpress-courier.php:31
+#:  
+#: includes/shipping/lpexpress-overseas/includes/settings-lpexpress-overseas.php:42
+#:  
+#: includes/shipping/lpexpress-postoffice/includes/settings-lpexpress-postoffice.php:30
+#:  
+#: includes/shipping/lpexpress-terminal/includes/settings-lpexpress-terminal.php:42
+#:  public/partials/html-delivery-time.php:16
+msgid "Delivery time"
+msgstr "Pristatymo laikas"
+
+#: admin/partials/includes/html-shipment-editor.php:680 
+#: admin/partials/includes/html-tracking-info.php:45
+msgid "Description"
+msgstr "Aprašymas"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:95
+msgid "Destroyed"
+msgstr "Sunaikinta"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:132 
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:135
+msgid "Detained"
+msgstr "Sulaikyta"
+
+msgid "Disable UNISEND terminal shipping for this product"
+msgstr "Išjungti UNISEND terminalo siuntimą šiam produktui"
+
+#: admin/partials/includes/html-shipment-editor.php:377 
+#: admin/partials/includes/html-shipment-editor.php:524
+msgid "Document"
+msgstr "Dokumentai"
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:156 
+#: admin/partials/includes/html-shipment-editor.php:286
+msgid "Email"
+msgstr "El. Paštas"
+
+#: includes/shipping/lp-overseas/includes/settings-lp-overseas.php:36 
+#: includes/shipping/lp-postoffice/includes/settings-lp-postoffice.php:34 
+#: includes/shipping/lpexpress-courier/includes/settings-lpexpress-courier.php:33
+#:  
+#: includes/shipping/lpexpress-overseas/includes/settings-lpexpress-overseas.php:44
+#:  
+#: includes/shipping/lpexpress-postoffice/includes/settings-lpexpress-postoffice.php:32
+#:  
+#: includes/shipping/lpexpress-terminal/includes/settings-lpexpress-terminal.php:44
+msgid "Example: 1 - 4 d.d."
+msgstr "Pavyzdžiui: 1 - 4 d.d."
+
+#: includes/shipping/rates/includes/html-country-rate-inputs.php:18 
+#: includes/shipping/rates/includes/html-tablerate-inputs.php:18
+msgid "Export"
+msgstr "Eksportuoti"
+
+#: includes/shipping/rates/includes/html-country-rate-inputs.php:7 
+#: includes/shipping/rates/includes/html-country-rate-inputs.php:14
+msgid "Export Price vs Country"
+msgstr "Eksportuoti kainą pagal šalį"
+
+#: includes/shipping/rates/includes/html-tablerate-inputs.php:7 
+#: includes/shipping/rates/includes/html-tablerate-inputs.php:14
+msgid "Export Price vs Weight"
+msgstr "Eksportuoti kainą pagal svorį"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:118
+msgid "Exported"
+msgstr "Eksportuota"
+
+#: admin/partials/includes/html-shipment-editor.php:543
+msgid "Exporter Customs Code"
+msgstr ""
+"Eksportuotojo muitinės kodas\n"
+"License,Licencija"
+
+#: admin/partials/includes/html-shipment-editor.php:592
+msgid "Failure Instruction"
+msgstr "Nesekmės instrukcija"
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:150
+msgid "Format: 370XXXXXXXX"
+msgstr "Formatas: 370XXXXXXXX"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:143
+msgid "Forwarded"
+msgstr "Persiųsta"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:144
+msgid "Forwarded in post office"
+msgstr "Persiųsta pašto skyriuje"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:145
+msgid "Forwarded-Served"
+msgstr "Persiuntimas-pateiktas"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:146
+msgid "Forwarding started"
+msgstr "Pradėtas persiuntimas"
+
+#: admin/partials/includes/html-shipment-editor.php:376 
+#: admin/partials/includes/html-shipment-editor.php:523
+msgid "Gift"
+msgstr "Dovana"
+
+msgid "Sell"
+msgstr "Prekės"
+
+msgid "Sell Items"
+msgstr "Prekės pardavimui"
+
+msgid "CN Declaration"
+msgstr "CN Deklaracija"
+
+msgid "Select"
+msgstr "Pasirinkite"
+
+#: admin/partials/includes/html-shipment-editor.php:434 
+#: admin/partials/includes/html-shipment-editor.php:716
+msgid "HS Item Number"
+msgstr "HS prekės numeris"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://post.lt"
+msgstr ""
+
+#: includes/shipping/rates/includes/html-country-rate-inputs.php:25 
+#: includes/shipping/rates/includes/html-country-rate-inputs.php:32
+msgid "Import Price vs Country"
+msgstr "Importuoti kainą pagal šalį"
+
+#: includes/shipping/rates/includes/html-tablerate-inputs.php:25 
+#: includes/shipping/rates/includes/html-tablerate-inputs.php:32
+msgid "Import Price vs Weight"
+msgstr "Importuoti kainą pagal svorį"
+
+#: admin/partials/includes/html-shipment-editor.php:610
+msgid "Importer Code"
+msgstr "Importuotojo kodas"
+
+#: admin/partials/includes/html-shipment-editor.php:620
+msgid "Importer Customs Code"
+msgstr "Importuotojo muitinės kodas"
+
+#: admin/partials/includes/html-shipment-editor.php:630
+msgid "Importer Email"
+msgstr "Importuotojo el. Paštas"
+
+#: admin/partials/includes/html-shipment-editor.php:640
+msgid "Importer Fax"
+msgstr "Importuotojo faksas"
+
+#: admin/partials/includes/html-shipment-editor.php:650
+msgid "Importer Phone"
+msgstr "Importuotojo telefonas"
+
+#: admin/partials/includes/html-shipment-editor.php:660
+msgid "Importer Tax Code"
+msgstr "Importuotojo mokesčių kodas"
+
+#: admin/partials/includes/html-shipment-editor.php:670
+msgid "Importer Vat Code"
+msgstr "Importuotojo PVM kodas"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:124
+msgid "Included"
+msgstr "Įtraukta"
+
+#: admin/partials/includes/html-tracking-info.php:33
+msgid "Information not yet updated"
+msgstr "Informacija dar nebuvo atnaujinta"
+
+#: admin/partials/includes/html-shipment-editor.php:573
+msgid "Invoice"
+msgstr "Sąskaita faktūra"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:96
+msgid "It's gone"
+msgstr "Dingo"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:93
+msgid "Item accepted at distribution center"
+msgstr "Siunta priimta skirstymo centre"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:87
+msgid "Item shipped from Lithuania"
+msgstr "Siunta išsiųsta iš Lietuvos"
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:238
+msgid "Label Format"
+msgstr "Lipduko formatas"
+
+msgid "Label Orientation"
+msgstr "Lipduko pasukimas"
+
+#: includes/shipping/lp-overseas/includes/settings-lp-overseas.php:44 
+#: includes/shipping/lpexpress-overseas/includes/settings-lpexpress-overseas.php:52
+msgid "Leave empty if you wan't to use country rates."
+msgstr "Palikite tuščią jei norite naudoti kainos pagal šalį lentelę"
+
+#: includes/shipping/lp-postoffice/includes/settings-lp-postoffice.php:42 
+#: includes/shipping/lpexpress-courier/includes/settings-lpexpress-courier.php:41
+#:  
+#: includes/shipping/lpexpress-postoffice/includes/settings-lpexpress-postoffice.php:40
+#:  
+#: includes/shipping/lpexpress-terminal/includes/settings-lpexpress-terminal.php:52
+msgid "Leave empty if you wan't to use table rates."
+msgstr "Palikite tuščią jei norite naudoti kainos pagal svorį lentelę"
+
+#: admin/partials/includes/html-shipment-editor.php:553
+msgid "License"
+msgstr "Licencija"
+
+#: admin/class-woo-lithuaniapost-admin-order-meta-box.php:89 
+#: admin/class-woo-lithuaniapost-admin-settings.php:63
+msgid "UNISEND"
+msgstr "UNISEND"
+
+#: includes/shipping/lp-postoffice/class-woo-lithuaniapost-shipping-lp-postoffice.php:30
+#:  includes/shipping/lp-postoffice/includes/settings-lp-postoffice.php:19
+msgid "UNISEND - Delivery to home, office or post office"
+msgstr "UNISEND - Siuntų pristatymas į namus, buveinę ar pašto skyrių"
+
+#: includes/shipping/lp-overseas/class-woo-lithuaniapost-shipping-lp-overseas.php:21
+#:  includes/shipping/lp-overseas/includes/settings-lp-overseas.php:19
+msgid "UNISEND - Delivery to overseas"
+msgstr "UNISEND - Siuntų pristatymas į užsienį"
+
+#: includes/shipping/lp-overseas/class-woo-lithuaniapost-shipping-lp-overseas.php:22
+msgid "UNISEND - Delivery to overseas shipping method."
+msgstr "UNISEND - Siuntų pristatymas į užsienį siuntimo būdas."
+
+#: includes/shipping/lp-postoffice/class-woo-lithuaniapost-shipping-lp-postoffice.php:31
+msgid "UNISEND - Post office delivery method."
+msgstr "UNISEND - Pristatymo į paštą pristatymo būdas."
+
+#. Plugin Name of the plugin
+msgid "UNISEND for WooCommerce"
+msgstr "UNISEND WooCommerce"
+
+#: woo-lithuaniapost.php:34
+msgid "UNISEND plugin requires PHP version 7+"
+msgstr "UNISEND įskiepis reikalauja minimum PHP 7 versijos"
+
+#. Description of the plugin
+msgid "UNISEND shipping for WooCommerce."
+msgstr "UNISEND įskiepis WooCommerce."
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:83
+msgid "UNISEND Shipping Settings"
+msgstr "UNISEND siuntimo nustatymai"
+
+#: admin/partials/woo-lithuaniapost-admin-display.php:27
+msgid "UNISEND Tracking"
+msgstr "UNISEND siuntos sekimas"
+
+#: admin/class-woo-lithuaniapost-admin-order-bulk-actions.php:72
+msgid "Call Courier"
+msgstr "Kviesti kurjerį"
+
+msgid "UNISEND Create Shipping Parcel"
+msgstr "UNISEND Sukurti siuntą"
+
+#: admin/class-woo-lithuaniapost-admin-order-bulk-actions.php:71
+msgid "UNISEND Cancel Shipping Labels"
+msgstr "UNISEND Atšaukti lipdukus"
+
+msgid "UNISEND Call courier and generate manifest"
+msgstr "UNISEND Kviesti kurjerį ir spausdinti manifestą"
+
+msgid "Call courier and generate manifest"
+msgstr "Kviesti kurjerį ir spausdinti manifestą"
+
+#: admin/class-woo-lithuaniapost-admin-order-bulk-actions.php:70
+msgid "Create Shipping Labels"
+msgstr "Generuoti lipdukus"
+
+msgid "Initiate Shipping"
+msgstr "Inicijuoti siuntą"
+
+#: includes/shipping/lpexpress-courier/class-woo-lithuaniapost-shipping-lpexpress-courier.php:22
+msgid "UNISEND - Courier shipping method."
+msgstr "UNISEND - Kurjerio siuntimo būdas."
+
+#: includes/shipping/lpexpress-postoffice/includes/settings-lpexpress-postoffice.php:19
+msgid "UNISEND - Delivery post office"
+msgstr "UNISEND - Pristatymas į pašto skyrių"
+
+#: includes/shipping/lpexpress-courier/class-woo-lithuaniapost-shipping-lpexpress-courier.php:21
+#:  
+#: includes/shipping/lpexpress-courier/includes/settings-lpexpress-courier.php:19
+msgid "UNISEND - Delivery to home, office by courier"
+msgstr "UNISEND - Siuntų pristatymas į namus, buveinę"
+
+#: includes/shipping/lpexpress-overseas/class-woo-lithuaniapost-shipping-lpexpress-overseas.php:21
+#:  
+#: includes/shipping/lpexpress-overseas/includes/settings-lpexpress-overseas.php:19
+msgid "UNISEND - Delivery to overseas"
+msgstr "UNISEND - Siuntų pristatymas į užsienį"
+
+#: includes/shipping/lpexpress-overseas/class-woo-lithuaniapost-shipping-lpexpress-overseas.php:22
+msgid "UNISEND - Delivery to overseas shipping method."
+msgstr "UNISEND - Siuntų pristatymas į užsienį siuntimo būdas."
+
+#: includes/shipping/lpexpress-postoffice/class-woo-lithuaniapost-shipping-lpexpress-postoffice.php:21
+msgid "UNISEND - Delivery to post office"
+msgstr "UNISEND - Siuntų pristatymas į pašto skyrių"
+
+#: includes/shipping/lpexpress-terminal/class-woo-lithuaniapost-shipping-lpexpress-terminal.php:21
+#:  
+#: includes/shipping/lpexpress-terminal/includes/settings-lpexpress-terminal.php:19
+msgid "UNISEND - Delivery to parcel locker"
+msgstr "UNISEND - Siuntų pristatymas į savitarnos paštomatą"
+
+#: includes/shipping/lpexpress-postoffice/class-woo-lithuaniapost-shipping-lpexpress-postoffice.php:22
+msgid "UNISEND - Post office shipping method."
+msgstr "UNISEND - Siuntų pristatymas į pašto skyrių siuntimo būdas."
+
+#: includes/shipping/lpexpress-terminal/class-woo-lithuaniapost-shipping-lpexpress-terminal.php:22
+msgid "UNISEND - Terminal shipping method."
+msgstr "UNISEND - Pristatymo į savitarnos terminalą siuntimo būdas."
+
+#: admin/partials/includes/html-shipment-editor.php:61
+msgid "UNISEND Courier"
+msgstr "UNISEND Kurjeris"
+
+#: admin/partials/includes/html-shipment-editor.php:69
+msgid "UNISEND Parcel Locker"
+msgstr "UNISEND Paštomatas"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:77
+msgid "UNISEND terminal request accepted"
+msgstr "UNISEND terminalo užklausa priimta"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:78
+msgid "UNISEND terminal request failed"
+msgstr "UNISEND terminalo užklausa nepavyko"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:79
+msgid "UNISEND terminal request rejected"
+msgstr "UNISEND terminalo užklausa atšaukta"
+
+#: admin/class-woo-lithuaniapost-admin-order-bulk-actions.php:76
+msgid "Print All Documents"
+msgstr "Spausdinti visus dokumentus"
+
+#: admin/class-woo-lithuaniapost-admin-order-bulk-actions.php:75
+msgid "Print CN23 Forms"
+msgstr "Spausdinti CN23 formas"
+
+#: admin/class-woo-lithuaniapost-admin-order-bulk-actions.php:73
+msgid "UNISEND Print Shipping Labels"
+msgstr "UNISEND Spausdinti lipdukus"
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:142
+msgid "Maximum length: 100 characters"
+msgstr "Maksimalus ilgis: 100 simbolių"
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:158
+msgid "Maximum length: 128 characters"
+msgstr "Maksimalus ilgis: 128 simboliai"
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:174 
+#: admin/class-woo-lithuaniapost-admin-settings.php:190 
+#: admin/class-woo-lithuaniapost-admin-settings.php:198
+msgid "Maximum length: 20 characters"
+msgstr "Maksimalus ilgis: 20 simbolių"
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:182
+msgid "Maximum length: 50 characters"
+msgstr "Maksimalus ilgis: 50 simbolių"
+
+msgid "Minimal order amount for free shipping"
+msgstr "Minimali užsakymo suma nemokamam pristatymui"
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:140 
+#: admin/partials/includes/html-shipment-editor.php:263
+msgid "Name"
+msgstr "Vardas"
+
+msgid "Company name"
+msgstr "Įmonės pavadinimas"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:154
+msgid "Not delivered"
+msgstr "Nepristatyta"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:130
+msgid "Not included"
+msgstr "Neįtraukta"
+
+#: admin/partials/includes/html-shipment-editor.php:583
+msgid "Notes"
+msgstr "Užrašai"
+
+msgid "Order date:"
+msgstr "Užsakymo data:"
+
+msgid "Order nr."
+msgstr "Užsakymo nr."
+
+#: admin/class-woo-lithuaniapost-admin.php:140
+msgctxt "Order status"
+msgid "Courier Called"
+msgstr "Kurjeris iškviestas"
+
+#: admin/class-woo-lithuaniapost-admin.php:139
+msgctxt "Order status"
+msgid "Shipment Created"
+msgstr "Paruošta siuntimui"
+
+msgctxt "Order status"
+msgid "Courier Pending"
+msgstr "Laukiama kurjerio iškvietimo"
+
+msgctxt "Order status"
+msgid "Parcel Created"
+msgstr "Siunta vykdoma"
+
+msgctxt "Order status"
+msgid "Parcel Create Failed"
+msgstr "Siuntos sukurti nepavyko"
+
+msgctxt "Order status"
+msgid "Courier Called"
+msgstr "Kurjeris iškviestas"
+
+msgctxt "Order status"
+msgid "On the way"
+msgstr "Siunčiama"
+
+msgctxt "Order status"
+msgid "Delivered"
+msgstr "Siunta pristatyta"
+
+msgctxt "Order status"
+msgid "Cancelled"
+msgstr "Siunta atšaukta"
+
+msgctxt "Order status"
+msgid "On-hold"
+msgstr "Sustabdytas"
+
+#: admin/partials/includes/html-shipment-editor.php:380 
+#: admin/partials/includes/html-shipment-editor.php:527
+msgid "Other"
+msgstr "Kita"
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:219
+msgid "Other Settings"
+msgstr "Kiti nustatymai"
+
+msgid "Validate shipping address"
+msgstr "Validuoti gavėjo adresą"
+
+msgid "Package"
+msgstr "Siuntinys"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:83
+msgid "Parcel accepted from sender"
+msgstr "Siunta priimta iš siuntėjo"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:111
+msgid "Parcel at the recipient's post office"
+msgstr "Siuntinys gavėjo pašto skyriuje"
+
+#: admin/partials/includes/html-shipment-editor.php:397
+msgid "Parcel Description"
+msgstr "Siuntinio aprašymas"
+
+#: admin/partials/includes/html-shipment-editor.php:30
+msgid "Parcel Information"
+msgstr "Siuntinio informacija"
+
+#: admin/partials/includes/html-shipment-editor.php:407 
+#: admin/partials/includes/html-shipment-editor.php:689
+msgid "Parcel Items"
+msgstr "Siuntiniai"
+
+#: admin/partials/includes/html-shipment-editor.php:371 
+#: admin/partials/includes/html-shipment-editor.php:518
+msgid "Parcel Type"
+msgstr "Siuntinio tipas"
+
+#: admin/partials/includes/html-shipment-editor.php:386 
+#: admin/partials/includes/html-shipment-editor.php:533
+msgid "Parcel Type Notes"
+msgstr "Siuntinio tipo užrašai"
+
+#: admin/partials/includes/html-shipment-editor.php:248
+msgid "Parts:"
+msgstr "Dalys:"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:153
+msgid "Passed on for deliver"
+msgstr "Perduota siuntimui"
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:113
+msgid "Password"
+msgstr "Slaptažodis"
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:115
+msgid "Password from manosiuntos.post.lt"
+msgstr "manosiuntos.post.lt slaptažodis"
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:148 
+#: admin/partials/includes/html-shipment-editor.php:275
+msgid "Phone"
+msgstr "Telefono numeris"
+
+#: public/class-woo-lithuaniapost-public.php:206 
+#: public/class-woo-lithuaniapost-public.php:217
+msgid "Please select parcel locker"
+msgstr "Prašome pasirinkti paštomatą"
+
+msgid "Select parcel locker"
+msgstr "Pasirinkti paštomatą"
+
+#: public/partials/html-lpexpress-terminal.php:21
+msgid "Please select parcel locker locality.."
+msgstr "Prašome pasirinkti paštomato vietovę.."
+
+#: public/partials/html-lpexpress-terminal.php:27
+msgid "Please select parcel locker.."
+msgstr "Prašome pasirinkti paštomatą.."
+
+msgid "COD payment is not available for selected shipping"
+msgstr "Pasirinktam siuntimo būdui COD mokėjimo paslauga negalima"
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:204 
+#: admin/partials/includes/html-shipment-editor.php:355
+msgid "Post Code"
+msgstr "Pašto kodas"
+
+#: admin/class-woo-lithuaniapost-admin.php:197 
+#: admin/class-woo-lithuaniapost-admin.php:241
+msgid "Price"
+msgstr "Kaina"
+
+#: admin/class-woo-lithuaniapost-admin-order-actions.php:133
+msgid "Print All Documents"
+msgstr "Spausdinti visus dokumentus"
+
+#: admin/class-woo-lithuaniapost-admin-order-actions.php:130
+msgid "Print CN23 Form"
+msgstr "Spausdinti CN23 formą"
+
+#: admin/class-woo-lithuaniapost-admin-order-actions.php:121
+msgid "UNISEND Print Manifest"
+msgstr "UNISEND Spausdinti manifestą"
+
+#: admin/class-woo-lithuaniapost-admin-order-actions.php:118
+msgid "UNISEND Print Shipping Label"
+msgstr "UNISEND Spausdinti lipduką"
+
+#: admin/partials/includes/html-shipment-editor.php:443 
+#: admin/partials/includes/html-shipment-editor.php:725
+msgid "Quantity"
+msgstr "Kiekis"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:125
+msgid "Receipt message"
+msgstr "Kvito pranešimas"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:141 
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:142
+msgid "Received"
+msgstr "Gauta"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:147 
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:149
+msgid "Refunded"
+msgstr "Grąžinti pinigai"
+
+#: admin/partials/includes/html-shipment-editor.php:379 
+#: admin/partials/includes/html-shipment-editor.php:526
+msgid "Return"
+msgstr "Grąžinta"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:150
+msgid "Return started"
+msgstr "Pradėtas grąžinimas"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:148
+msgid "Returned to post office"
+msgstr "Grįžo į pašto skyrių"
+
+#: admin/partials/includes/html-shipment-editor.php:378 
+#: admin/partials/includes/html-shipment-editor.php:525
+msgid "Sample"
+msgstr "Pavyzdys"
+
+#: admin/partials/includes/html-shipment-editor.php:795
+msgid "Save Changes"
+msgstr "Išsaugoti"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:134
+msgid "Secure on demand"
+msgstr "Apsauga pagal poreikį"
+
+#: admin/class-woo-lithuaniapost-admin-api-hooks.php:391
+msgid "Sender city is invalid. Please enter a valid city and try again."
+msgstr ""
+"Siuntėjo miestas įvestas neteisingai. Prašome patikrinti ir mėginti dar "
+"kartą."
+
+#: admin/partials/includes/html-shipment-editor.php:35 
+#: admin/partials/includes/html-shipment-editor.php:260
+msgid "Sender Information"
+msgstr "Siuntėjo informacija"
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:134
+msgid "Sender information"
+msgstr "Siuntėjo informacija"
+
+msgid "Pickup information"
+msgstr "Paėmimo adreso informacija"
+
+msgid "Pickup address"
+msgstr "Paėmimo adresas"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:151
+msgid "Sent"
+msgstr "Išsiųsta"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:121
+msgid "Served (BKIS)"
+msgstr "Pateikta (BKIS)"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:122
+msgid "Served at the post office"
+msgstr "Pateikta pašto skyriuje"
+
+#: admin/partials/includes/html-shipment-editor.php:54
+msgid "Ship From:"
+msgstr "Siųsti iš:"
+
+#: admin/partials/includes/html-shipment-editor.php:214
+msgid "Ship To:"
+msgstr "Siųsti į:"
+
+#. translators: %s: number of orders
+#: admin/class-woo-lithuaniapost-admin.php:117
+#, fuzzy
+#| msgid "Shipment Created <span class=\"count\">(%s)</span>"
+#| msgid_plural "Shipment Created <span class=\"count\">(%s)</span>"
+msgid "Shipment Created <span class=\"count\">(%s)</span>"
+msgid_plural "Shipment Created <span class=\"count\">(%s)</span>"
+msgstr[0] "Paruošta siuntimui <span class=\"count\">(%s)</span>"
+msgstr[1] "Paruošta siuntimui <span class=\"count\">(%s)</span>"
+msgstr[2] "Paruošta siuntimui <span class=\"count\">(%s)</span>"
+
+msgid "Courier Pending <span class=\"count\">(%s)</span>"
+msgid_plural "Courier Pending <span class=\"count\">(%s)</span>"
+msgstr[0] "Laukiama kurjerio iškvietimo <span class=\"count\">(%s)</span>"
+msgstr[1] "Laukiama kurjerio iškvietimo <span class=\"count\">(%s)</span>"
+msgstr[2] "Laukiama kurjerio iškvietimo <span class=\"count\">(%s)</span>"
+
+msgid "Parcel Created <span class=\"count\">(%s)</span>"
+msgid_plural "Parcel Created <span class=\"count\">(%s)</span>"
+msgstr[0] "Siunta vykdoma <span class=\"count\">(%s)</span>"
+msgstr[1] "Siunta vykdoma <span class=\"count\">(%s)</span>"
+msgstr[2] "Siunta vykdoma <span class=\"count\">(%s)</span>"
+
+msgid "Parcel Create Failed <span class=\"count\">(%s)</span>"
+msgid_plural "Parcel Create Failed <span class=\"count\">(%s)</span>"
+msgstr[0] "Siuntos sukurti nepavyko <span class=\"count\">(%s)</span>"
+msgstr[1] "Siuntos sukurti nepavyko <span class=\"count\">(%s)</span>"
+msgstr[2] "Siuntos sukurti nepavyko <span class=\"count\">(%s)</span>"
+
+msgid "Courier Called <span class=\"count\">(%s)</span>"
+msgid_plural "Courier Called <span class=\"count\">(%s)</span>"
+msgstr[0] "Kurjeris iškviestas <span class=\"count\">(%s)</span>"
+msgstr[1] "Kurjeris iškviestas <span class=\"count\">(%s)</span>"
+msgstr[2] "Kurjeris iškviestas <span class=\"count\">(%s)</span>"
+
+msgid "On the way <span class=\"count\">(%s)</span>"
+msgid_plural "On the way <span class=\"count\">(%s)</span>"
+msgstr[0] "Siunčiama <span class=\"count\">(%s)</span>"
+msgstr[1] "Siunčiama <span class=\"count\">(%s)</span>"
+msgstr[2] "Siunčiama <span class=\"count\">(%s)</span>"
+
+msgid "Delivered <span class=\"count\">(%s)</span>"
+msgid_plural "Delivered <span class=\"count\">(%s)</span>"
+msgstr[0] "Siunta pristatyta <span class=\"count\">(%s)</span>"
+msgstr[1] "Siunta pristatyta <span class=\"count\">(%s)</span>"
+msgstr[2] "Siunta pristatyta <span class=\"count\">(%s)</span>"
+
+msgid "Cancelled <span class=\"count\">(%s)</span>"
+msgid_plural "Cancelled <span class=\"count\">(%s)</span>"
+msgstr[0] "Siunta atšaukta <span class=\"count\">(%s)</span>"
+msgstr[1] "Siunta atšaukta <span class=\"count\">(%s)</span>"
+msgstr[2] "Siunta atšaukta <span class=\"count\">(%s)</span>"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:89
+msgid "Shipment returned"
+msgstr "Siunta grąžinta"
+
+#: includes/shipping/lpexpress-courier/includes/settings-lpexpress-courier.php:23
+#:  
+#: includes/shipping/lpexpress-overseas/includes/settings-lpexpress-overseas.php:23
+#:  
+#: includes/shipping/lpexpress-postoffice/includes/settings-lpexpress-postoffice.php:23
+#:  
+#: includes/shipping/lpexpress-terminal/includes/settings-lpexpress-terminal.php:23
+msgid "Shipping method"
+msgstr "Siuntimo būdas"
+
+msgid "Shipping plan"
+msgstr "Siuntos planas"
+
+msgid "Parcel type"
+msgstr "Siuntos tipas"
+
+msgid "Shipping rates type"
+msgstr "Siuntos kainos tipas"
+
+msgid "Shipping rates"
+msgstr "Siuntos kaina"
+
+msgid "Shipping weight"
+msgstr "Siuntos svoris"
+
+msgid "Flat Rate Shipping"
+msgstr "Fiksuota"
+
+msgid "Weight Based Shipping"
+msgstr "Pagal svorį"
+
+msgid "Size Based Shipping"
+msgstr "Pagal dydį"
+
+msgid "Add Weight"
+msgstr "Pridėti"
+
+#: parcel types
+msgid "Storage in a parcel locker"
+msgstr "Pasaugojimas paštomate"
+
+msgid "Storage in a parcel locker"
+msgstr "Pasaugojimas paštomate"
+
+msgid "Courier -> Parcel locker"
+msgstr "Kurjeris -> Paštomatas"
+
+msgid "Parcel locker -> Parcel locker"
+msgstr "Paštomatas -> Paštomatas"
+
+msgid "Post office -> Recipient address"
+msgstr "Paštas -> Gavėjo adresas"
+
+msgid "Parcel locker -> Recipient address"
+msgstr "Paštomatas -> Gavėjo adresas"
+
+msgid "Courier -> Recipient address"
+msgstr "Kurjeris -> Gavėjo adresas"
+
+msgid "Courier -> Post office"
+msgstr "Kurjeris -> Paštas"
+
+#: plans
+msgid "Processes documents"
+msgstr "Procesiniai dokumentai"
+
+msgid "Untracked"
+msgstr "Be sekimo"
+
+msgid "Locker"
+msgstr "Į paštomatą"
+
+msgid "Courier"
+msgstr "Į rankas"
+
+msgid "Tracked signed"
+msgstr "Su sekimu pasirašytinai"
+
+msgid "Signed"
+msgstr "Pasirašytinai"
+
+msgid "Tracked"
+msgstr "Su sekimu"
+
+#: shipment editor side
+msgid "Parcel create pending"
+msgstr "Laukiama siuntos kūrimo"
+
+msgid "Plan"
+msgstr "Siuntos planas"
+
+msgid "Parcel Size"
+msgstr "Siuntos dydis"
+
+msgid "Parcel Weight (g)"
+msgstr "Siuntos svoris gramais"
+
+msgid "Parcel part count"
+msgstr "Siuntos dalių skaičius"
+
+msgid "Save Changes"
+msgstr "Išsaugoti pakeitimus"
+
+msgid "Regenerate"
+msgstr "Kurti siuntą"
+
+msgid "Parcel create failed"
+msgstr "Siuntos sukurti nepavyko"
+
+msgid "Edit CN"
+msgstr "Redaguoti CN"
+
+#: includes/shipping/lp-overseas/includes/settings-lp-overseas.php:23 
+#: includes/shipping/lp-postoffice/includes/settings-lp-postoffice.php:23 
+#: includes/shipping/lpexpress-overseas/includes/settings-lpexpress-overseas.php:31
+#:  
+#: includes/shipping/lpexpress-terminal/includes/settings-lpexpress-terminal.php:31
+msgid "Shipping size"
+msgstr "Siuntos dydis"
+
+msgid "Shipping type"
+msgstr "Siuntos tipas"
+
+msgid "Monday"
+msgstr "Pirmadienis"
+
+msgid "Tuesday"
+msgstr "Antradienis"
+
+msgid "Wednesday"
+msgstr "Trečiadienis"
+
+msgid "Thursday"
+msgstr "Ketvirtadienis"
+
+msgid "Friday"
+msgstr "Penktadienis"
+
+msgid "Sunday"
+msgstr "Sekmadienis"
+
+msgid "Saturday"
+msgstr "Šeštadienis"
+
+#: admin/class-woo-lithuaniapost-admin-api-hooks.php:171
+msgid "Something wen't wrong please try again later."
+msgstr "Įvyko klaida. Prašome mėginti dar kartą."
+
+#: admin/partials/includes/html-tracking-info.php:30
+msgid "Status:"
+msgstr "Statusas:"
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:180 
+#: admin/partials/includes/html-shipment-editor.php:322
+msgid "Street"
+msgstr "Gatvė"
+
+#: admin/partials/includes/html-shipment-editor.php:415 
+#: admin/partials/includes/html-shipment-editor.php:697
+msgid "Summary"
+msgstr "Aprašymas"
+
+#: admin/class-woo-lithuaniapost-admin.php:164
+msgid "Parcel Locker"
+msgstr "Paštomatas"
+
+#: admin/partials/includes/html-shipment-editor.php:216 
+#: public/partials/html-lpexpress-terminal.php:18
+msgid "Parcel Locker:"
+msgstr "Paštomatas:"
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:99
+msgid "Test Mode"
+msgstr "Testavimo režimas"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:116
+msgid "The consignment has been checked at the customs office of dispatch"
+msgstr "Siunta buvo patikrinta išsiuntimo muitinės įstaigoje"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:114
+msgid ""
+"The consignment has been presented to the customs authorities of the country "
+"of departure"
+msgstr "Siunta buvo pateikta išvykimo šalies muitinei"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:99
+msgid ""
+"The consignment is subject to customs controls in the country of destination"
+msgstr "Siuntai taikoma muitinės kontrolė paskirties šalyje"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:115
+msgid "The consignment was detained at the office of departure"
+msgstr "Siunta buvo sulaikyta išvykimo įstaigoje"
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:85
+msgid "The following options are used to configure UNISEND shipping"
+msgstr "UNISEND siuntimo nustatymai"
+
+#: admin/partials/includes/html-shipment-editor.php:76 
+#: admin/partials/includes/html-shipment-editor.php:125 
+#: admin/partials/includes/html-shipment-editor.php:160
+msgid "The Item Being Sent"
+msgstr "Prekė siunčiama:"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:98
+msgid ""
+"The item has been presented to the customs authorities of the country of "
+"destination"
+msgstr "Siunta buvo pateikta paskirties šalies muitinei"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:94
+msgid "The item shall be transported to another distribution center"
+msgstr "Prekė gabenama į kitą skirstymo centrą"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:91
+msgid "The itemt was delivered for destruction"
+msgstr "Siunta pristatyta sunaikinimui"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:88
+msgid "The parcel has been handed over to the courier for delivery"
+msgstr "Siunta perduota kurjeriui"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:90
+msgid "The parcel is being returned"
+msgstr "Siuntinys grąžinamas"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:139
+msgid "The parcel is taken by courier from the parcel self-service terminal"
+msgstr "Siunta paimta kurjerio iš savitarnos terminalo"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:84
+msgid "The parcel was delivered to the UNISEND Office"
+msgstr "Siunta buvo pristatyta į Lietuvos Paštą"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:129
+msgid "The parcel was received at the UNISEND Office"
+msgstr "Siuntinys gautas UNISEND skyriuje"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:82
+msgid "The parcel was taken from the UNISEND Office"
+msgstr "Siunta paimta iš UNISEND"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:119
+msgid "The shipment has been canceled from the sender's country"
+msgstr "Siunta atšaukta iš siuntėjo šalies"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:103
+msgid "The shipment has been delivered for delivery"
+msgstr "Siunta buvo pristatyta pristatyti"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:113
+msgid "The shipment has been delivered to the consignee"
+msgstr "Siunta buvo pristatyta gavėjui"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:85 
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:138
+msgid "The shipment has been delivered to the receiver"
+msgstr "Siunta pristatyta gavėjui"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:140
+msgid "The shipment has been withdrawn by the receiver"
+msgstr "Siunta atsiimta gavėjo"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:137
+msgid "The shipment is gone"
+msgstr "Siunta dingo"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:102
+msgid "The shipment is on hold in the recipient's post office"
+msgstr "Siunta yra sulaikyta gavėjo pašto skyriuje"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:136
+msgid "The shipment is placed in the parcel self-service terminal for shipment"
+msgstr "Siunta padėta į savitarnos terminalą siuntimui"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:120 
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:133
+msgid "The shipment was delivered to the parcel self-service terminal"
+msgstr "Siunta pristatyta į savitarnos terminalą"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:104
+msgid "The shipment was delivered to the place of collection"
+msgstr "Siunta buvo pristatyta į surinkimo vietą"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:97
+msgid ""
+"The shipment was detained at the distribution center of the recipient country"
+msgstr "Siunta buvo sulaikyta šalies gavėjo paskirstymo centre"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:101
+msgid ""
+"The shipment was sent from a distribution center in the recipient country"
+msgstr "Siunta buvo išsiųsta iš gavėjo šalies paskirstymo centro"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:110
+msgid "The shipment was sent to the recipient's post office"
+msgstr "Siunta išsiųsta į gavėjo pašto skyrių"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:117
+msgid "Thei tem is detained at the dispatch center of the country of dispatch"
+msgstr "Siunta sulaikyta išsiuntimo šalies išsiuntimo centre"
+
+#: admin/partials/includes/html-shipment-editor.php:82 
+#: admin/partials/includes/html-shipment-editor.php:90 
+#: admin/partials/includes/html-shipment-editor.php:98 
+#: admin/partials/includes/html-shipment-editor.php:106 
+#: admin/partials/includes/html-shipment-editor.php:114 
+#: admin/partials/includes/html-shipment-editor.php:131 
+#: admin/partials/includes/html-shipment-editor.php:140 
+#: admin/partials/includes/html-shipment-editor.php:149 
+#: admin/partials/includes/html-shipment-editor.php:166 
+#: admin/partials/includes/html-shipment-editor.php:175 
+#: admin/partials/includes/html-shipment-editor.php:184
+msgid "to"
+msgstr "iki"
+
+msgid "TRACK PARCEL"
+msgstr "SEKTI SIUNTĄ"
+
+#: admin/partials/includes/html-tracking-info.php:22
+msgid "Tracking Information"
+msgstr "Siuntos sekimo informacija"
+
+msgid "Tracking nr."
+msgstr "Sekimo nr."
+
+#: admin/partials/includes/html-tracking-info.php:26 
+#: admin/partials/woo-lithuaniapost-admin-display.php:24
+msgid "Tracking Number:"
+msgstr "Siuntos sekimo numeris:"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:152
+msgid "Transferred to storage"
+msgstr "Perkelta į saugyklą"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:123
+msgid "Transferred to the State"
+msgstr "Perduota valstybei"
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:131
+msgid "Unknown"
+msgstr "Nežinoma"
+
+msgid "UNISEND Tracking"
+msgstr "UNISEND Siuntos sekimas"
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:105
+msgid "Username"
+msgstr "Vartotojo vardas"
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:107
+msgid "Username from manosiuntos.post.lt"
+msgstr "manosiuntos.post.lt vartotojo vardas"
+
+#: admin/partials/includes/html-shipment-editor.php:438 
+#: admin/partials/includes/html-shipment-editor.php:720
+msgid "Weight"
+msgstr "Svoris"
+
+#: admin/class-woo-lithuaniapost-admin.php:197
+msgid "Weight To"
+msgstr "Svoris iki"
+
+msgid "Your order has been sent"
+msgstr "Užsakymas išsiųstas"
+
+msgid "Your order is on the way!"
+msgstr "Jūsų užsakymas jau pakeliui!"
+
+msgid "Use Price vs Country and Weight table"
+msgstr "Naudoti kainą pagal šalį ir svorį lentelę"
+
+msgid "Action is not available"
+msgstr "Veiksmas negalimas"
+
+msgid "Failed to initiate shipping"
+msgstr "Nepavyko inicijuoti siuntos"
+
+msgid "UNISEND Error"
+msgstr "UNISEND Klaida"
+
+msgid "Generate and print Labels"
+msgstr "Sukurti ir spausdinti lipdukus"
+
+msgid "Barcode"
+msgstr "Barkodas"
+
+msgid "All shipping methods"
+msgstr "Visi siuntimo būdai"
+
+msgid "Service"
+msgstr "Paslauga"
+
+msgid "Services"
+msgstr "Paslaugos"
+
+msgid "Date"
+msgstr "Data"
+
+msgid "Address"
+msgstr "Adresas"
+
+msgid "Size"
+msgstr "Dydis"
+
+msgid "Weight"
+msgstr "Svoris"
+
+msgid "UNISEND settings"
+msgstr "UNISEND nustatymai"
+
+msgid "Settings"
+msgstr "Nustatymai"
+
+msgid "Filter by status"
+msgstr "Filtruoti pagal statusą"
+
+msgid "All orders"
+msgstr "Visi užsakymai"
+
+msgid "New orders"
+msgstr "Nauji užsakymai"
+
+msgid "Completed orders"
+msgstr "Atlikti užsakymai"
+
+msgid "Please fill correct shipping data: address1 size must be between 0 and 50"
+msgstr "'Gatvė, namo numeris' reikšmė per ilga. Galima reikšmė iki 50 simbolių."
+
+msgid "Please fill correct shipping data: address2 size must be between 0 and 50"
+msgstr "'Butas, blokas' reikšmė per ilga. Galima reikšmė iki 50 simbolių."
+
+msgid "Courier Pending"
+msgstr "Laukiama kurjerio iškvietimo"
+
+msgid "Parcel Created"
+msgstr "Siunta vykdoma"
+
+msgid "Parcel Create Failed"
+msgstr "Siuntos sukurti nepavyko"
+
+msgid "Shipment Created"
+msgstr "Paruošta siuntimui"
+
+msgid "Courier Called"
+msgstr "Kurjeris iškviestas"
+
+msgid "On the way"
+msgstr "Siunčiama"
+
+msgid "Delivered"
+msgstr "Siunta pristatyta"
+
+msgid "Cancelled"
+msgstr "Siunta atšaukta"
+
+msgid "On-hold"
+msgstr "Sustabdytas"
+
+msgid "Dimension settings"
+msgstr "Matmenys"
+
+msgid "Height (cm)"
+msgstr "Aukštis (cm)"
+
+msgid "Width (cm)"
+msgstr "Plotis (cm)"
+
+msgid "Length (cm)"
+msgstr "Ilgis (cm)"
+
+msgid "Default product height"
+msgstr "Numatytasis produkto aukštis"
+
+msgid "Default product width"
+msgstr "Numatytasis produkto plotis"
+
+msgid "Default product length"
+msgstr "Numatytasis produkto ilgis"
+
+msgid "Disable UNISEND shipping for this product"
+msgstr "Išjungti UNISEND siuntimą šiam produktui"
+
+msgid "UNISEND parcel locker"
+msgstr "UNISEND paštomatas"
+
+msgid "Disable UNISEND shipping to parcel locker for this product"
+msgstr "Išjungti UNISEND siuntimą į paštomatus šiam produktui"
+
+msgid "Change status to 'Completed' when"
+msgstr "Pakeisti statusą į 'Įvykdytas' kai"
+
+msgid "Sent email with order tracking link when"
+msgstr "Siųsti užsakymo sekimo nuorodą el. paštu kai"
+
+msgid "To include tracking link into already existing WooCommerce email templates add {unisend_tracking_number} text into template content."
+msgstr "Tam, kad įterptumėte siuntos sekimo nuorodą į jau esamų WooCommerce el. laiškų šablonus, pridėkite {unisend_tracking_number} tekstą į el. laiško šablono turinį."
+
+msgid "Never"
+msgstr "Niekada"
+
+msgid "We haven’t received your parcel yet."
+msgstr "Siunta dar neperduoda UNISEND"
+
+msgid "Track your shipment"
+msgstr "Sekti siuntą"

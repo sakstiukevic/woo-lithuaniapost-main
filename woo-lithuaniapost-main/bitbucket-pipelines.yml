@@ -1,0 +1,10 @@
+image: atlassian/default-image:3
+
+pipelines:
+  default:
+    - step:
+        name: 'Zip Archive'
+        script:
+          - git archive -o woo-lithuaniapost-main.zip HEAD
+        artifacts:
+          - woo-lithuaniapost-main.zip

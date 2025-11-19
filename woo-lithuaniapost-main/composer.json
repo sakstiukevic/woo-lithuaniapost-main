@@ -1,0 +1,6 @@
+{
+    "require": {
+        "nawebco/box-packer": "^2.2",
+        "ext-json": "*"
+    }
+}

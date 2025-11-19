@@ -1,0 +1,1009 @@
+# Copyright (C) 2021 AB "Lietuvos Paštas"
+# This file is distributed under the same license as the Lithuania Post for WooCommerce plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Lithuania Post for WooCommerce 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woo-lithuaniapost\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-07-01T10:04:08+03:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: woo-lithuaniapost\n"
+
+#. Plugin Name of the plugin
+msgid "Lithuania Post for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://post.lt"
+msgstr ""
+
+#. Description of the plugin
+msgid "Lithuania Post shipping for WooCommerce."
+msgstr ""
+
+#. Author of the plugin
+msgid "UNISEND"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-api-hooks.php:171
+msgid "Something wen't wrong please try again later."
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-api-hooks.php:391
+msgid "Sender city is invalid. Please enter a valid city and try again."
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-actions.php:113
+msgid "Create Shipping Label"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-actions.php:117
+msgid "Cancel Shipping Label"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-actions.php:118
+msgid "Print Shipping Label"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-actions.php:121
+msgid "Print Manifest"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-actions.php:125
+msgid "Call Courier"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-actions.php:130
+msgid "Print CN23 Form"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-actions.php:133
+msgid "Print All Documents"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-bulk-actions.php:70
+msgid "LP Create Shipping Labels"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-bulk-actions.php:71
+msgid "UNISEND Cancel Shipping Labels"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-bulk-actions.php:72
+msgid "LP Call Courier"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-bulk-actions.php:73
+msgid "UNISEND Print Shipping Labels"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-bulk-actions.php:74
+msgid "UNISEND Print Manifests"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-bulk-actions.php:75
+msgid "LP Print CN23 Forms"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-bulk-actions.php:76
+msgid "LP Print All Documents"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-bulk-actions.php:432
+msgid "Could not complete action for orders %s."
+msgid_plural "Could not complete action for orders %s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-woo-lithuaniapost-admin-order-bulk-actions.php:442
+msgid "Call courier action complete."
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-bulk-actions.php:450
+msgid "Create labels action complete."
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-bulk-actions.php:458
+msgid "Cancel labels action complete."
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-meta-box.php:89
+#: admin/class-woo-lithuaniapost-admin-settings.php:63
+msgid "Lithuania Post"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:76
+msgid "Accepted"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:77
+msgid "LP express terminal request accepted"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:78
+msgid "LP express terminal request failed"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:79
+msgid "LP express terminal request rejected"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:80
+msgid "BP terminal request submitted"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:81
+msgid "Canceled"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:82
+msgid "The parcel was taken from the Lithuanian Post Office"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:83
+msgid "Parcel accepted from sender"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:84
+msgid "The parcel was delivered to the Lithuanian Post Office"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:85
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:138
+msgid "The shipment has been delivered to the receiver"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:86
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:128
+msgid "Delivery failed"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:87
+msgid "Item shipped from Lithuania"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:88
+msgid "The parcel has been handed over to the courier for delivery"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:89
+msgid "Shipment returned"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:90
+msgid "The parcel is being returned"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:91
+msgid "The itemt was delivered for destruction"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:92
+msgid "Delivered"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:93
+msgid "Item accepted at distribution center"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:94
+msgid "The item shall be transported to another distribution center"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:95
+msgid "Destroyed"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:96
+msgid "It's gone"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:97
+msgid "The shipment was detained at the distribution center of the recipient country"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:98
+msgid "The item has been presented to the customs authorities of the country of destination"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:99
+msgid "The consignment is subject to customs controls in the country of destination"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:100
+msgid "Consignment at the distribution center in the country of destination"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:101
+msgid "The shipment was sent from a distribution center in the recipient country"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:102
+msgid "The shipment is on hold in the recipient's post office"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:103
+msgid "The shipment has been delivered for delivery"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:104
+msgid "The shipment was delivered to the place of collection"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:105
+msgid "Consignment accepted from sender"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:106
+msgid "Consignment at distribution center"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:107
+msgid "Consignment shipped from Lithuania"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:108
+msgid "Consignment in the country of destination"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:109
+msgid "Consignment at the customs office of destination"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:110
+msgid "The shipment was sent to the recipient's post office"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:111
+msgid "Parcel at the recipient's post office"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:112
+msgid "Attempt to deliver failed"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:113
+msgid "The shipment has been delivered to the consignee"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:114
+msgid "The consignment has been presented to the customs authorities of the country of departure"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:115
+msgid "The consignment was detained at the office of departure"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:116
+msgid "The consignment has been checked at the customs office of dispatch"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:117
+msgid "Thei tem is detained at the dispatch center of the country of dispatch"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:118
+msgid "Exported"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:119
+msgid "The shipment has been canceled from the sender's country"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:120
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:133
+msgid "The shipment was delivered to the parcel self-service terminal"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:121
+msgid "Served (BKIS)"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:122
+msgid "Served at the post office"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:123
+msgid "Transferred to the State"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:124
+msgid "Included"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:125
+msgid "Receipt message"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:126
+msgid "Delivery tag canceled"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:127
+msgid "Delivery tag created"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:129
+msgid "The parcel was received at the Lithuanian Post Office"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:130
+msgid "Not included"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:131
+msgid "Unknown"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:132
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:135
+msgid "Detained"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:134
+msgid "Secure on demand"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:136
+msgid "The shipment is placed in the parcel self-service terminal for shipment"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:137
+msgid "The shipment is gone"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:139
+msgid "The parcel is taken by courier from the parcel self-service terminal"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:140
+msgid "The shipment has been withdrawn by the receiver"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:141
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:142
+msgid "Received"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:143
+msgid "Forwarded"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:144
+msgid "Forwarded in post office"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:145
+msgid "Forwarded-Served"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:146
+msgid "Forwarding started"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:147
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:149
+msgid "Refunded"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:148
+msgid "Returned to post office"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:150
+msgid "Return started"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:151
+msgid "Sent"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:152
+msgid "Transferred to storage"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:153
+msgid "Passed on for deliver"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-order-tracking.php:154
+msgid "Not delivered"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:83
+msgid "Lithuania Post Shipping Settings"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:85
+msgid "The following options are used to configure Lithuania Post shipping"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:93
+msgid "Authorization"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:99
+msgid "Test Mode"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:105
+msgid "Username"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:107
+msgid "Username from manosiuntos.post.lt"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:113
+msgid "Password"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:115
+msgid "Password from manosiuntos.post.lt"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:134
+msgid "Sender information"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:140
+#: admin/partials/includes/html-shipment-editor.php:263
+msgid "Name"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:142
+msgid "Maximum length: 100 characters"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:148
+#: admin/partials/includes/html-shipment-editor.php:275
+msgid "Phone"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:150
+msgid "Format: 370XXXXXXXX"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:156
+#: admin/partials/includes/html-shipment-editor.php:286
+msgid "Email"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:158
+msgid "Maximum length: 128 characters"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:164
+#: admin/class-woo-lithuaniapost-admin.php:241
+#: admin/partials/includes/html-shipment-editor.php:297
+msgid "Country"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:172
+#: admin/partials/includes/html-shipment-editor.php:311
+msgid "City"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:174
+#: admin/class-woo-lithuaniapost-admin-settings.php:190
+#: admin/class-woo-lithuaniapost-admin-settings.php:198
+msgid "Maximum length: 20 characters"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:180
+#: admin/partials/includes/html-shipment-editor.php:322
+msgid "Street"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:182
+msgid "Maximum length: 50 characters"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:188
+#: admin/partials/includes/html-shipment-editor.php:333
+msgid "Building Number"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:196
+msgid "Apartment Number"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:204
+#: admin/partials/includes/html-shipment-editor.php:355
+msgid "Post Code"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:219
+msgid "Other Settings"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:224
+msgid "Call courier automatically"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:229
+msgid "Consignment Formation"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin-settings.php:238
+msgid "Label Format"
+msgstr ""
+
+#. translators: %s: number of orders
+#: admin/class-woo-lithuaniapost-admin.php:117
+msgid "Shipment Created <span class=\"count\">(%s)</span> "
+msgid_plural "Shipment Created <span class=\"count\">(%s)</span> "
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: number of orders
+#: admin/class-woo-lithuaniapost-admin.php:127
+msgid "Courier Called <span class=\"count\">(%s)</span>"
+msgid_plural "Courier Called <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-woo-lithuaniapost-admin.php:139
+msgctxt "Order status"
+msgid "Shipment Created"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin.php:140
+msgctxt "Order status"
+msgid "Courier Called"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin.php:164
+msgid "Parcel Locker"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin.php:197
+msgid "Weight To"
+msgstr ""
+
+#: admin/class-woo-lithuaniapost-admin.php:197
+#: admin/class-woo-lithuaniapost-admin.php:241
+msgid "Price"
+msgstr ""
+
+#: admin/partials/includes/html-shipment-editor.php:30
+msgid "Parcel Information"
+msgstr ""
+
+#: admin/partials/includes/html-shipment-editor.php:35
+#: admin/partials/includes/html-shipment-editor.php:260
+msgid "Sender Information"
+msgstr ""
+
+#: admin/partials/includes/html-shipment-editor.php:40
+#: admin/partials/includes/html-shipment-editor.php:368
+msgid "CN22 Declaration"
+msgstr ""
+
+#: admin/partials/includes/html-shipment-editor.php:46
+#: admin/partials/includes/html-shipment-editor.php:515
+msgid "CN23 Declaration"
+msgstr ""
+
+#: admin/partials/includes/html-shipment-editor.php:54
+msgid "Ship From:"
+msgstr ""
+
+#: admin/partials/includes/html-shipment-editor.php:61
+msgid "LP EXPRESS Courier"
+msgstr ""
+
+#: admin/partials/includes/html-shipment-editor.php:69
+msgid "LP EXPRESS Terminal"
+msgstr ""
+
+#: admin/partials/includes/html-shipment-editor.php:76
+#: admin/partials/includes/html-shipment-editor.php:125
+#: admin/partials/includes/html-shipment-editor.php:160
+msgid "The Item Being Sent"
+msgstr ""
+
+#: admin/partials/includes/html-shipment-editor.php:82
+#: admin/partials/includes/html-shipment-editor.php:90
+#: admin/partials/includes/html-shipment-editor.php:98
+#: admin/partials/includes/html-shipment-editor.php:106
+#: admin/partials/includes/html-shipment-editor.php:114
+#: admin/partials/includes/html-shipment-editor.php:131
+#: admin/partials/includes/html-shipment-editor.php:140
+#: admin/partials/includes/html-shipment-editor.php:149
+#: admin/partials/includes/html-shipment-editor.php:166
+#: admin/partials/includes/html-shipment-editor.php:175
+#: admin/partials/includes/html-shipment-editor.php:184
+msgid "to"
+msgstr ""
+
+#: admin/partials/includes/html-shipment-editor.php:214
+msgid "Ship To:"
+msgstr ""
+
+#: admin/partials/includes/html-shipment-editor.php:216
+#: public/partials/html-lpexpress-terminal.php:18
+msgid "Parcel Locker:"
+msgstr ""
+
+#: admin/partials/includes/html-shipment-editor.php:248
+msgid "Parts:"
+msgstr ""
+
+#: admin/partials/includes/html-shipment-editor.php:344
+msgid "Apartment"
+msgstr ""
+
+#: admin/partials/includes/html-shipment-editor.php:371
+#: admin/partials/includes/html-shipment-editor.php:518
+msgid "Parcel Type"
+msgstr ""
+
+#: admin/partials/includes/html-shipment-editor.php:375
+#: admin/partials/includes/html-shipment-editor.php:522
+msgid "Sell"
+msgstr ""
+
+#: admin/partials/includes/html-shipment-editor.php:376
+#: admin/partials/includes/html-shipment-editor.php:523
+msgid "Gift"
+msgstr ""
+
+#: admin/partials/includes/html-shipment-editor.php:377
+#: admin/partials/includes/html-shipment-editor.php:524
+msgid "Document"
+msgstr ""
+
+#: admin/partials/includes/html-shipment-editor.php:378
+#: admin/partials/includes/html-shipment-editor.php:525
+msgid "Sample"
+msgstr ""
+
+#: admin/partials/includes/html-shipment-editor.php:379
+#: admin/partials/includes/html-shipment-editor.php:526
+msgid "Return"
+msgstr ""
+
+#: admin/partials/includes/html-shipment-editor.php:380
+#: admin/partials/includes/html-shipment-editor.php:527
+msgid "Other"
+msgstr ""
+
+#: admin/partials/includes/html-shipment-editor.php:386
+#: admin/partials/includes/html-shipment-editor.php:533
+msgid "Parcel Type Notes"
+msgstr ""
+
+#: admin/partials/includes/html-shipment-editor.php:397
+msgid "Parcel Description"
+msgstr ""
+
+#: admin/partials/includes/html-shipment-editor.php:407
+#: admin/partials/includes/html-shipment-editor.php:689
+msgid "Parcel Items"
+msgstr ""
+
+#: admin/partials/includes/html-shipment-editor.php:415
+#: admin/partials/includes/html-shipment-editor.php:697
+msgid "Summary"
+msgstr ""
+
+#: admin/partials/includes/html-shipment-editor.php:420
+#: admin/partials/includes/html-shipment-editor.php:702
+msgid "Amount"
+msgstr ""
+
+#: admin/partials/includes/html-shipment-editor.php:425
+#: admin/partials/includes/html-shipment-editor.php:707
+msgid "Country of Origin"
+msgstr ""
+
+#: admin/partials/includes/html-shipment-editor.php:430
+#: admin/partials/includes/html-shipment-editor.php:712
+msgid "Currency"
+msgstr ""
+
+#: admin/partials/includes/html-shipment-editor.php:434
+#: admin/partials/includes/html-shipment-editor.php:716
+msgid "HS Item Number"
+msgstr ""
+
+#: admin/partials/includes/html-shipment-editor.php:438
+#: admin/partials/includes/html-shipment-editor.php:720
+msgid "Weight"
+msgstr ""
+
+#: admin/partials/includes/html-shipment-editor.php:443
+#: admin/partials/includes/html-shipment-editor.php:725
+msgid "Quantity"
+msgstr ""
+
+#: admin/partials/includes/html-shipment-editor.php:543
+msgid "Exporter Customs Code"
+msgstr ""
+
+#: admin/partials/includes/html-shipment-editor.php:553
+msgid "License"
+msgstr ""
+
+#: admin/partials/includes/html-shipment-editor.php:563
+msgid "Certificate"
+msgstr ""
+
+#: admin/partials/includes/html-shipment-editor.php:573
+msgid "Invoice"
+msgstr ""
+
+#: admin/partials/includes/html-shipment-editor.php:583
+msgid "Notes"
+msgstr ""
+
+#: admin/partials/includes/html-shipment-editor.php:592
+msgid "Failure Instruction"
+msgstr ""
+
+#: admin/partials/includes/html-shipment-editor.php:610
+msgid "Importer Code"
+msgstr ""
+
+#: admin/partials/includes/html-shipment-editor.php:620
+msgid "Importer Customs Code"
+msgstr ""
+
+#: admin/partials/includes/html-shipment-editor.php:630
+msgid "Importer Email"
+msgstr ""
+
+#: admin/partials/includes/html-shipment-editor.php:640
+msgid "Importer Fax"
+msgstr ""
+
+#: admin/partials/includes/html-shipment-editor.php:650
+msgid "Importer Phone"
+msgstr ""
+
+#: admin/partials/includes/html-shipment-editor.php:660
+msgid "Importer Tax Code"
+msgstr ""
+
+#: admin/partials/includes/html-shipment-editor.php:670
+msgid "Importer Vat Code"
+msgstr ""
+
+#: admin/partials/includes/html-shipment-editor.php:680
+#: admin/partials/includes/html-tracking-info.php:45
+msgid "Description"
+msgstr ""
+
+#: admin/partials/includes/html-shipment-editor.php:795
+msgid "Save Changes"
+msgstr ""
+
+#: admin/partials/includes/html-tracking-info.php:22
+msgid "Tracking Information"
+msgstr ""
+
+#: admin/partials/includes/html-tracking-info.php:26
+#: admin/partials/woo-lithuaniapost-admin-display.php:24
+msgid "Tracking Number:"
+msgstr ""
+
+#: admin/partials/includes/html-tracking-info.php:30
+msgid "Status:"
+msgstr ""
+
+#: admin/partials/includes/html-tracking-info.php:33
+msgid "Information not yet updated"
+msgstr ""
+
+#: admin/partials/includes/html-tracking-info.php:44
+msgid "Date"
+msgstr ""
+
+#: admin/partials/woo-lithuaniapost-admin-display.php:27
+msgid "UNISEND Tracking"
+msgstr ""
+
+#: includes/shipping/lp-overseas/class-woo-lithuaniapost-shipping-lp-overseas.php:21
+#: includes/shipping/lp-overseas/includes/settings-lp-overseas.php:19
+msgid "Lithuania Post - Delivery to overseas"
+msgstr ""
+
+#: includes/shipping/lp-overseas/class-woo-lithuaniapost-shipping-lp-overseas.php:22
+msgid "Lithuania Post - Delivery to overseas shipping method."
+msgstr ""
+
+#: includes/shipping/lp-overseas/includes/settings-lp-overseas.php:23
+#: includes/shipping/lp-postoffice/includes/settings-lp-postoffice.php:23
+#: includes/shipping/lpexpress-overseas/includes/settings-lpexpress-overseas.php:31
+#: includes/shipping/lpexpress-terminal/includes/settings-lpexpress-terminal.php:31
+msgid "Shipping size"
+msgstr ""
+
+#: includes/shipping/lp-overseas/includes/settings-lp-overseas.php:34
+#: includes/shipping/lp-postoffice/includes/settings-lp-postoffice.php:32
+#: includes/shipping/lpexpress-courier/includes/settings-lpexpress-courier.php:31
+#: includes/shipping/lpexpress-overseas/includes/settings-lpexpress-overseas.php:42
+#: includes/shipping/lpexpress-postoffice/includes/settings-lpexpress-postoffice.php:30
+#: includes/shipping/lpexpress-terminal/includes/settings-lpexpress-terminal.php:42
+#: public/partials/html-delivery-time.php:16
+msgid "Delivery time"
+msgstr ""
+
+#: includes/shipping/lp-overseas/includes/settings-lp-overseas.php:36
+#: includes/shipping/lp-postoffice/includes/settings-lp-postoffice.php:34
+#: includes/shipping/lpexpress-courier/includes/settings-lpexpress-courier.php:33
+#: includes/shipping/lpexpress-overseas/includes/settings-lpexpress-overseas.php:44
+#: includes/shipping/lpexpress-postoffice/includes/settings-lpexpress-postoffice.php:32
+#: includes/shipping/lpexpress-terminal/includes/settings-lpexpress-terminal.php:44
+msgid "Example: 1 - 4 d.d."
+msgstr ""
+
+#: includes/shipping/lp-overseas/includes/settings-lp-overseas.php:44
+#: includes/shipping/lpexpress-overseas/includes/settings-lpexpress-overseas.php:52
+msgid "Leave empty if you wan't to use country rates."
+msgstr ""
+
+#: includes/shipping/lp-postoffice/class-woo-lithuaniapost-shipping-lp-postoffice.php:30
+#: includes/shipping/lp-postoffice/includes/settings-lp-postoffice.php:19
+msgid "Lithuania Post - Delivery to home, office or post office"
+msgstr ""
+
+#: includes/shipping/lp-postoffice/class-woo-lithuaniapost-shipping-lp-postoffice.php:31
+msgid "Lithuania Post - Post office delivery method."
+msgstr ""
+
+#: includes/shipping/lp-postoffice/includes/settings-lp-postoffice.php:42
+#: includes/shipping/lpexpress-courier/includes/settings-lpexpress-courier.php:41
+#: includes/shipping/lpexpress-postoffice/includes/settings-lpexpress-postoffice.php:40
+#: includes/shipping/lpexpress-terminal/includes/settings-lpexpress-terminal.php:52
+msgid "Leave empty if you wan't to use table rates."
+msgstr ""
+
+#: includes/shipping/lpexpress-courier/class-woo-lithuaniapost-shipping-lpexpress-courier.php:21
+#: includes/shipping/lpexpress-courier/includes/settings-lpexpress-courier.php:19
+msgid "LP EXPRESS - Delivery to home, office by courier"
+msgstr ""
+
+#: includes/shipping/lpexpress-courier/class-woo-lithuaniapost-shipping-lpexpress-courier.php:22
+msgid "LP EXPRESS - Courier shipping method."
+msgstr ""
+
+#: includes/shipping/lpexpress-courier/includes/settings-lpexpress-courier.php:23
+#: includes/shipping/lpexpress-overseas/includes/settings-lpexpress-overseas.php:23
+#: includes/shipping/lpexpress-postoffice/includes/settings-lpexpress-postoffice.php:23
+#: includes/shipping/lpexpress-terminal/includes/settings-lpexpress-terminal.php:23
+msgid "Shipping method"
+msgstr ""
+
+#: includes/shipping/lpexpress-overseas/class-woo-lithuaniapost-shipping-lpexpress-overseas.php:21
+#: includes/shipping/lpexpress-overseas/includes/settings-lpexpress-overseas.php:19
+msgid "LP EXPRESS - Delivery to overseas"
+msgstr ""
+
+#: includes/shipping/lpexpress-overseas/class-woo-lithuaniapost-shipping-lpexpress-overseas.php:22
+msgid "LP EXPRESS - Delivery to overseas shipping method."
+msgstr ""
+
+#: includes/shipping/lpexpress-postoffice/class-woo-lithuaniapost-shipping-lpexpress-postoffice.php:21
+msgid "LP EXPRESS - Delivery to post office"
+msgstr ""
+
+#: includes/shipping/lpexpress-postoffice/class-woo-lithuaniapost-shipping-lpexpress-postoffice.php:22
+msgid "LP EXPRESS - Post office shipping method."
+msgstr ""
+
+#: includes/shipping/lpexpress-postoffice/includes/settings-lpexpress-postoffice.php:19
+msgid "LP EXPRESS - Delivery post office"
+msgstr ""
+
+#: includes/shipping/lpexpress-terminal/class-woo-lithuaniapost-shipping-lpexpress-terminal.php:21
+#: includes/shipping/lpexpress-terminal/includes/settings-lpexpress-terminal.php:19
+msgid "LP EXPRESS - Delivery to parcel locker"
+msgstr ""
+
+#: includes/shipping/lpexpress-terminal/class-woo-lithuaniapost-shipping-lpexpress-terminal.php:22
+msgid "LP EXPRESS - Terminal shipping method."
+msgstr ""
+
+#: includes/shipping/rates/includes/html-country-rate-inputs.php:7
+#: includes/shipping/rates/includes/html-country-rate-inputs.php:14
+msgid "Export Price vs Country"
+msgstr ""
+
+#: includes/shipping/rates/includes/html-country-rate-inputs.php:18
+#: includes/shipping/rates/includes/html-tablerate-inputs.php:18
+msgid "Export"
+msgstr ""
+
+#: includes/shipping/rates/includes/html-country-rate-inputs.php:25
+#: includes/shipping/rates/includes/html-country-rate-inputs.php:32
+msgid "Import Price vs Country"
+msgstr ""
+
+#: includes/shipping/rates/includes/html-tablerate-inputs.php:7
+#: includes/shipping/rates/includes/html-tablerate-inputs.php:14
+msgid "Export Price vs Weight"
+msgstr ""
+
+#: includes/shipping/rates/includes/html-tablerate-inputs.php:25
+#: includes/shipping/rates/includes/html-tablerate-inputs.php:32
+msgid "Import Price vs Weight"
+msgstr ""
+
+#: public/class-woo-lithuaniapost-public.php:206
+#: public/class-woo-lithuaniapost-public.php:217
+msgid "Please select LP EXPRESS terminal"
+msgstr ""
+
+#: public/partials/html-lpexpress-terminal.php:21
+msgid "Please select LP EXPRESS terminal locality.."
+msgstr ""
+
+#: public/partials/html-lpexpress-terminal.php:27
+msgid "Please select LP EXPRESS terminal.."
+msgstr ""
+
+#: woo-lithuaniapost.php:34
+msgid "Lithuania Post plugin requires PHP version 7+"
+msgstr ""
+
+msgid "Corespondence"
+msgstr ""
+
+msgid "Package"
+msgstr ""
+
+msgid "Corespondence Tracked"
+msgstr ""
+
+msgid "Shipping type"
+msgstr ""
+
+msgid "Minimal order amount for free shipping"
+msgstr ""
+
+msgid "Coupon discount"
+msgstr ""
+
+msgid "Apply minimal amount rule before coupon discount"
+msgstr ""
+
+msgid "Disable LP EXPRESS terminal shipping for this product"
+msgstr ""
+
+msgid "Your order is on the way!"
+msgstr ""
+
+msgid "Order nr."
+msgstr ""
+
+msgid "Order date:"
+msgstr ""
+
+msgid "Tracking nr."
+msgstr ""
+
+msgid "TRACK PARCEL"
+msgstr ""
+
+msgid "Your order has been sent"
+msgstr ""
+
+msgid "Use Price vs Country and Weight table"
+msgstr ""
+
+msgid "Export Price vs Country and Weight"
+msgstr ""
+
+msgid "Import Price vs Country and Weight"
+msgstr ""
+
+msgid "Weight To (kg)"
+msgstr ""
