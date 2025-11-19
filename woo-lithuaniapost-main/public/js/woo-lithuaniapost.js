@@ -23,6 +23,23 @@
     }
 
     $(document).ready(function () {
+        // Clear terminal session when shipping method changes to non-terminal
+        $(document.body).on('change', 'input[name^="shipping_method"]', function() {
+            let selectedMethod = $(this).val();
+            // If non-terminal shipping method is selected, clear terminal session
+            if (!selectedMethod || selectedMethod.indexOf('woo_lithuaniapost_lpexpress_terminal') === -1) {
+                if (typeof woo_lithuaniapost !== 'undefined' && woo_lithuaniapost.ajax_url) {
+                    $.ajax({
+                        type: "POST",
+                        dataType: "json",
+                        url: woo_lithuaniapost.ajax_url,
+                        data: {
+                            action: "clear_selected_lpexpress_terminal"
+                        }
+                    });
+                }
+            }
+        });
 
         const terminalMatcher = (params, data) => {
             const originalMatcher = $.fn.select2.defaults.defaults.matcher;

@@ -107,9 +107,10 @@ class Woo_Lithuaniapost_Public
         wp_enqueue_script( 'select2' );
 
         wp_enqueue_script ( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/woo-lithuaniapost.js', array( 'jquery', 'select2' ), $this->version, false );
-        wp_enqueue_script ( $this->plugin_name . '-lpexpress-terminal-block', plugin_dir_url( __FILE__ ) . 'js/woo-lithuaniapost-lpexpress-terminal-block.js', array( 'jquery' ), $this->version, false );
+        wp_enqueue_script ( $this->plugin_name . '-lpexpress-terminal-block', plugin_dir_url( __FILE__ ) . 'js/woo-lithuaniapost-lpexpress-terminal-block.js', array( 'jquery', 'select2' ), $this->version, false );
         wp_enqueue_script ( $this->plugin_name . '-shipping-logo', plugin_dir_url( __FILE__ ) . 'js/woo-lithuaniapost-shipping-logo.js', array( 'jquery' ), $this->version, false );
         wp_localize_script( $this->plugin_name, 'woo_lithuaniapost', array( 'ajax_url' => admin_url ( 'admin-ajax.php' ), 'shipping_logo_url' =>  plugins_url( 'images/unisend_shipping_lpexpress_logo_45x25.png', __FILE__ )) );
+        wp_localize_script( $this->plugin_name . '-lpexpress-terminal-block', 'woo_lithuaniapost', array( 'ajax_url' => admin_url ( 'admin-ajax.php' ), 'shipping_logo_url' =>  plugins_url( 'images/unisend_shipping_lpexpress_logo_45x25.png', __FILE__ )) );
     }
 
 	/**
@@ -178,9 +179,57 @@ class Woo_Lithuaniapost_Public
 
     public function handle_after_get_rates_for_package($package, $shipping_method)
     {
-        if ($shipping_method->id != 'woo_lithuaniapost_lpexpress_terminal' || isset($_GET['wc-ajax']) || $this->is_json_response() || (!is_cart() && !is_checkout())) {
+        // Get method id - support both object methods and direct property access
+        $method_id = is_object($shipping_method) && method_exists($shipping_method, 'get_id') 
+            ? $shipping_method->get_id() 
+            : (isset($shipping_method->id) ? $shipping_method->id : null);
+        
+        if ($method_id != 'woo_lithuaniapost_lpexpress_terminal' || (!is_cart() && !is_checkout())) {
             return;
         }
+        
+        // Get instance_id and check if plan is TERMINAL
+        $instance_id = is_object($shipping_method) && method_exists($shipping_method, 'get_instance_id') 
+            ? $shipping_method->get_instance_id() 
+            : (isset($shipping_method->instance_id) ? $shipping_method->instance_id : null);
+        
+        // Only generate HTML if plan is TERMINAL
+        if (!$instance_id || $this->get_method_settings_value($instance_id, 'plan') != 'TERMINAL') {
+            return; // Not a TERMINAL plan, don't generate HTML
+        }
+        
+        // Generate HTML for block checkout - classic checkout uses render_terminal_field hook
+        // Block checkout uses REST API (Store API) - check for REST_REQUEST
+        // Classic checkout should not use this hook - check if woocommerce_after_shipping_rate will fire
+        
+        // Always generate HTML for REST API requests (block checkout)
+        if (defined('REST_REQUEST') && REST_REQUEST) {
+            // Block checkout REST API - generate HTML
+            $this->handle_generate_terminal_dropdown_html($shipping_method);
+            $this->handle_generate_terminal_input_html($shipping_method);
+            if (is_checkout()) {
+                $this->handle_render_delivery_time_code_block($shipping_method);
+            }
+            return;
+        }
+        
+        // For non-REST requests, check if we're in a classic checkout page context
+        // Classic checkout uses woocommerce_after_shipping_rate hook which fires during normal page load
+        // If we're on a classic checkout page and it's not an AJAX request, don't generate here
+        // Block checkout JavaScript will fetch HTML via AJAX (get_terminal_dropdown_html) if needed
+        if (is_checkout() && !wp_doing_ajax()) {
+            // Classic checkout page - render_terminal_field hook will handle it
+            return;
+        }
+        
+        // For AJAX requests, check if this is a classic checkout AJAX update
+        if (wp_doing_ajax() && isset($_REQUEST['wc-ajax']) && $_REQUEST['wc-ajax'] === 'update_order_review') {
+            // This is classic checkout AJAX update - don't generate here, render_terminal_field handles it
+            return;
+        }
+        
+        // For cart page or other AJAX requests, generate HTML (block checkout may use AJAX)
+        // This ensures HTML is available for block checkout JavaScript to find or fetch via AJAX
         $this->handle_generate_terminal_dropdown_html($shipping_method);
         $this->handle_generate_terminal_input_html($shipping_method);
         if (is_checkout()) {
@@ -190,35 +239,65 @@ class Woo_Lithuaniapost_Public
 
     private function handle_generate_terminal_input_html($shipping_method)
     {
-        if ($this->get_method_settings_value($shipping_method->get_instance_id(), 'plan') == 'TERMINAL') {
-            $element_value = $shipping_method->id . '_' . $shipping_method->get_instance_id();
-            $element_key = 'woo_lithuaniapost_lpexpress_terminal_' . $element_value;
-            $element_saved = ($_REQUEST[$element_key] ?? null) == true;
-            if (!$element_saved) {
+        // Get instance_id and method id - support both object methods and direct property access
+        $instance_id = is_object($shipping_method) && method_exists($shipping_method, 'get_instance_id') 
+            ? $shipping_method->get_instance_id() 
+            : (isset($shipping_method->instance_id) ? $shipping_method->instance_id : null);
+        
+        $method_id = is_object($shipping_method) && method_exists($shipping_method, 'get_id') 
+            ? $shipping_method->get_id() 
+            : (isset($shipping_method->id) ? $shipping_method->id : null);
+        
+        if ($instance_id && $method_id && $this->get_method_settings_value($instance_id, 'plan') == 'TERMINAL') {
+            $element_value = $method_id . '_' . $instance_id;
+            
+            // Always generate - JavaScript will handle duplicates in DOM
+            // Use static counter to prevent multiple outputs in same request
+            static $generated_inputs = array();
+            if (!in_array($element_value, $generated_inputs)) {
                 echo $this->generate_terminal_input_html($element_value);
-                $_REQUEST[$element_key] = true;
+                $generated_inputs[] = $element_value;
             }
         }
     }
 
     private function handle_generate_terminal_dropdown_html($shipping_method)
     {
-        if ($this->get_method_settings_value($shipping_method->get_instance_id(), 'plan') == 'TERMINAL') {
-            $element_value = $shipping_method->id;
-            $element_key = 'woo_lithuaniapost_lpexpress_terminal_dropdown_' . $element_value;
-            $element_saved = ($_REQUEST[$element_key] ?? null) == true;
-            if (!$element_saved) {
+        // Get instance_id - support both object methods and direct property access
+        $instance_id = is_object($shipping_method) && method_exists($shipping_method, 'get_instance_id') 
+            ? $shipping_method->get_instance_id() 
+            : (isset($shipping_method->instance_id) ? $shipping_method->instance_id : null);
+        
+        if ($instance_id && $this->get_method_settings_value($instance_id, 'plan') == 'TERMINAL') {
+            // Always generate - JavaScript will handle ensuring only one dropdown exists in DOM
+            // Use static array to track generated dropdowns per instance_id (for AJAX requests)
+            static $dropdown_generated = array();
+            if (!isset($dropdown_generated[$instance_id])) {
                 include __DIR__ . '/partials/html-block-lpexpress-terminal.php';   // execute the file
-                $_REQUEST[$element_key] = true;
+                $dropdown_generated[$instance_id] = true;
             }
         }
     }
 
+
     private function handle_render_delivery_time_code_block($shipping_method)
     {
-        $delivery_time = $this->get_method_settings_value($shipping_method->get_instance_id(), 'delivery_time');
+        // Get instance_id and method id - support both object methods and direct property access
+        $instance_id = is_object($shipping_method) && method_exists($shipping_method, 'get_instance_id') 
+            ? $shipping_method->get_instance_id() 
+            : (isset($shipping_method->instance_id) ? $shipping_method->instance_id : null);
+        
+        $method_id = is_object($shipping_method) && method_exists($shipping_method, 'get_id') 
+            ? $shipping_method->get_id() 
+            : (isset($shipping_method->id) ? $shipping_method->id : null);
+        
+        if (!$instance_id || !$method_id) {
+            return;
+        }
+        
+        $delivery_time = $this->get_method_settings_value($instance_id, 'delivery_time');
         if ($delivery_time) {
-            $element_value = $shipping_method->id . ':' . $shipping_method->get_instance_id();
+            $element_value = $method_id . ':' . $instance_id;
             $element_key = 'woo_lithuaniapost_lpexpress_delivery_time_' . $element_value;
             $element_saved = ($_REQUEST[$element_key] ?? null) == true;
             if (!$element_saved) {
@@ -433,24 +512,35 @@ class Woo_Lithuaniapost_Public
 	 * @since 1.0.0
 	 */
 	private function save_order_meta_info ( $order )
-	{
+    {
             $shipping_method_instance_id = $this->get_chosen_method_instance_id();
             if ($shipping_method_instance_id) {
                 $order->update_meta_data('_woo_lithuaniapost_lpexpress_shipping_method_instance_id', $shipping_method_instance_id);
             }
 
-            $saved_terminal_id = $this->get_selected_terminal_id();
-            // Save terminal id
-            if (isset ($saved_terminal_id)) {
-
-                $terminal_id = sanitize_text_field($saved_terminal_id);
-
-                $terminal = apply_filters('woo_lithuaniapost_terminal_service_get_terminal_by_id', $terminal_id);
-
-                if ($terminal) {
-                    $order->update_meta_data('_woo_lithuaniapost_lpexpress_terminal_id', $terminal_id);
-                    $order->update_meta_data('_woo_lithuaniapost_lpexpress_terminal', sprintf('%s - %s, %s', $terminal [0]->name, $terminal [0]->address, $terminal [0]->city));
+            // Only save terminal if the chosen method is a terminal method with TERMINAL plan
+            if ($this->is_chosen_method_lp()) {
+                $chosen_plan = $this->get_chosen_method_settings_value('plan');
+                if ($chosen_plan == 'TERMINAL') {
+                    $saved_terminal_id = $this->get_selected_terminal_id();
+                    // Save terminal id
+                    if (isset ($saved_terminal_id)) {
+                        $terminal_id = sanitize_text_field($saved_terminal_id);
+                        $terminal = apply_filters('woo_lithuaniapost_terminal_service_get_terminal_by_id', $terminal_id);
+                        if ($terminal) {
+                            $order->update_meta_data('_woo_lithuaniapost_lpexpress_terminal_id', $terminal_id);
+                            $order->update_meta_data('_woo_lithuaniapost_lpexpress_terminal', sprintf('%s - %s, %s', $terminal [0]->name, $terminal [0]->address, $terminal [0]->city));
+                        }
+                    }
+                } else {
+                    // Not a TERMINAL plan - clear terminal meta data if it exists
+                    $order->delete_meta_data('_woo_lithuaniapost_lpexpress_terminal_id');
+                    $order->delete_meta_data('_woo_lithuaniapost_lpexpress_terminal');
                 }
+            } else {
+                // Not a terminal shipping method - clear terminal meta data if it exists
+                $order->delete_meta_data('_woo_lithuaniapost_lpexpress_terminal_id');
+                $order->delete_meta_data('_woo_lithuaniapost_lpexpress_terminal');
             }
             $order->save();
     }
@@ -469,6 +559,64 @@ class Woo_Lithuaniapost_Public
         );
 
         wp_die ();
+    }
+
+    /**
+     * Clear selected terminal from session
+     * @since 1.0.0
+     */
+    public function clear_selected_terminal_session ()
+    {
+        WC ()->session->set ( 'selected_lpexpress_terminal', null );
+        wp_send_json_success(['message' => 'Terminal session cleared']);
+    }
+
+    /**
+     * Get terminal dropdown HTML via AJAX
+     * @since 1.0.0
+     */
+    public function get_terminal_dropdown_html()
+    {
+        // Check nonce for security (optional but recommended)
+        // For now, we'll allow it without nonce since it's a public endpoint
+        
+        // Get shipping method instance ID from request
+        $instance_id = isset($_REQUEST['instance_id']) ? intval($_REQUEST['instance_id']) : null;
+        
+        if (!$instance_id) {
+            wp_send_json_error(['message' => 'Instance ID is required']);
+            return;
+        }
+
+        // Create a mock shipping method object
+        $shipping_method = new stdClass();
+        $shipping_method->id = 'woo_lithuaniapost_lpexpress_terminal';
+        $shipping_method->instance_id = $instance_id;
+
+        // Verify that the instance exists and has TERMINAL plan
+        try {
+            $plan = $this->get_method_settings_value($instance_id, 'plan');
+            if ($plan != 'TERMINAL') {
+                wp_send_json_error(['message' => 'Shipping method is not configured for TERMINAL plan. Plan: ' . ($plan ? $plan : 'null')]);
+                return;
+            }
+        } catch (Exception $e) {
+            wp_send_json_error(['message' => 'Error getting shipping method settings: ' . $e->getMessage()]);
+            return;
+        }
+
+        // Generate HTML
+        ob_start();
+        $this->handle_generate_terminal_dropdown_html($shipping_method);
+        $this->handle_generate_terminal_input_html($shipping_method);
+        $html = ob_get_clean();
+
+        if (empty($html)) {
+            wp_send_json_error(['message' => 'Failed to generate HTML. Plan: ' . $plan . ', Instance ID: ' . $instance_id]);
+            return;
+        }
+
+        wp_send_json_success(['html' => $html]);
     }
 
     /**
@@ -536,7 +684,11 @@ class Woo_Lithuaniapost_Public
 
     private function get_method_settings_value($instance_id, $key)
     {
-        return get_option('woocommerce_woo_lithuaniapost_lpexpress_terminal_' . $instance_id . '_settings')[$key];
+        $settings = get_option('woocommerce_woo_lithuaniapost_lpexpress_terminal_' . $instance_id . '_settings');
+        if (!$settings || !is_array($settings) || !isset($settings[$key])) {
+            return null;
+        }
+        return $settings[$key];
     }
 
     private function is_selected_method_lp($method, $index): bool
